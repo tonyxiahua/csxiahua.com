@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#2d494e">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <script type="text/javascript">
+    var host = "rednik.xyz";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
+    <link rel="canonical" href=" { { site.url } }{ { page.url } }" />
+ <script type="text/javascript">
+    var host = "rednik.xyz";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+        window.location.protocol = "https";
+</script>
+    
+
+    <title>
+      ShadowSocks on Chromebook | Xia Hua&#39;s Tech Blog 
+    </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+      <meta name="author" content="Xia Hua">
+    
+    
+
+    <meta name="description" content="本文章转载自 http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259本文介绍如何在chromebook上利用shadowsock进行科学上网。当然前提是你要有自己的SS账号，详情不表。
+在CB上利用SS科学上网有以下两种方法：
+一、在crouton或Dev OS中开启SS这种方法需要在CB上通过crouton安装有linu">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ShadowSocks on Chromebook | Xia Hua's Tech Blog">
+<meta property="og:url" content="https://csxiahua.com/2017/01/13/ShadowSocks-on-Chromebook/index.html">
+<meta property="og:site_name" content="Xia Hua's Tech Blog">
+<meta property="og:description" content="本文章转载自 http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259本文介绍如何在chromebook上利用shadowsock进行科学上网。当然前提是你要有自己的SS账号，详情不表。
+在CB上利用SS科学上网有以下两种方法：
+一、在crouton或Dev OS中开启SS这种方法需要在CB上通过crouton安装有linu">
+<meta property="og:updated_time" content="2017-01-13T20:25:14.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="ShadowSocks on Chromebook | Xia Hua's Tech Blog">
+<meta name="twitter:description" content="本文章转载自 http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259本文介绍如何在chromebook上利用shadowsock进行科学上网。当然前提是你要有自己的SS账号，详情不表。
+在CB上利用SS科学上网有以下两种方法：
+一、在crouton或Dev OS中开启SS这种方法需要在CB上通过crouton安装有linu">
+    
+    
+    
+      <link rel="icon" type="image/x-icon" href="/favicon.png">
+    
+    <link rel="stylesheet" href="/css/uno.css">
+    <link rel="stylesheet" href="/css/highlight.css">
+    <link rel="stylesheet" href="/css/archive.css">
+    <link rel="stylesheet" href="/css/china-social-icon.css">
+
+</head>
+<body>
+
+    <span class="mobile btn-mobile-menu">
+        <i class="icon icon-list btn-mobile-menu__icon"></i>
+        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+
+<header class="panel-cover panel-cover--collapsed">
+
+
+  <div class="panel-main">
+
+  
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        
+
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage">Xia Hua&#39;s Tech Blog</a></h1>
+        <hr class="panel-cover__divider" />
+
+        
+        <p class="panel-cover__description">
+          Since 2016
+        </p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+        
+
+        <div class="navigation-wrapper">
+
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+
+              
+                
+                <li class="navigation__item"><a href="/#blog" title="" class="blog-button">Blog</a></li>
+              
+                
+                <li class="navigation__item"><a href="/about" title="" class="">About</a></li>
+              
+                
+                <li class="navigation__item"><a href="/archive" title="" class="">Archive</a></li>
+              
+                
+                <li class="navigation__item"><a href="/friends" title="" class="">Friends&lt;3</a></li>
+              
+                
+                <li class="navigation__item"><a href="/categories" title="" class="">Categories</a></li>
+              
+                
+                <li class="navigation__item"><a href="/tags" title="" class="">Tags</a></li>
+              
+                
+                <li class="navigation__item"><a href="/coupon" title="" class="">Coupon</a></li>
+              
+
+            </ul>
+          </nav>
+
+          <!-- ----------------------------
+To add a new social icon simply duplicate one of the list items from below
+and change the class in the <i> tag to match the desired social network
+and then add your link to the <a>. Here is a full list of social network
+classes that you can use:
+
+    icon-social-500px
+    icon-social-behance
+    icon-social-delicious
+    icon-social-designer-news
+    icon-social-deviant-art
+    icon-social-digg
+    icon-social-dribbble
+    icon-social-facebook
+    icon-social-flickr
+    icon-social-forrst
+    icon-social-foursquare
+    icon-social-github
+    icon-social-google-plus
+    icon-social-hi5
+    icon-social-instagram
+    icon-social-lastfm
+    icon-social-linkedin
+    icon-social-medium
+    icon-social-myspace
+    icon-social-path
+    icon-social-pinterest
+    icon-social-rdio
+    icon-social-reddit
+    icon-social-skype
+    icon-social-spotify
+    icon-social-stack-overflow
+    icon-social-steam
+    icon-social-stumbleupon
+    icon-social-treehouse
+    icon-social-tumblr
+    icon-social-twitter
+    icon-social-vimeo
+    icon-social-xbox
+    icon-social-yelp
+    icon-social-youtube
+    icon-social-zerply
+    icon-mail
+
+-------------------------------->
+
+<!-- add social info here -->
+
+
+
+<nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+    
+      <!-- Github -->
+      <li class="navigation__item">
+        <a href="https://github.com/tonyxiahua" title="Rednik on GitHub">
+          <i class='icon icon-social-github'></i>
+          <span class="label">GitHub</span>
+        </a>
+      </li>
+      <!-- Linkedin -->
+      <li class="navigation__item">
+        <a href="https://www.linkedin.com/in/hua-xia-13a71711b" title="Rednik on Linkedin">
+          <i class='icon icon-social-linkedin'></i>
+          <span class="label">Linkedin</span>
+        </a>
+      </li>
+    <!-- China social icon -->
+    <!-- Weibo-->
+      <li class="navigation__item">
+        <a href="http://weibo.com/" title="Xia Hua on Weibo">
+          <i class='icon cs-icon-weibo'></i>
+          <span class="label">Weibo</span>
+        </a>
+      </li>
+      <li class="navigation__item">
+        <a href="mailto:contact@csxiahua.com" title="e-mail me"
+         <i class='icon icon-mail'></i>
+         <span class="label">mail</span>
+        </a>
+      </li>    
+
+  </ul>
+</nav>
+
+
+
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner entry">
+            
+
+<article class="post-container post-container--single">
+
+  <header class="post-header">
+    
+    <h1 class="post-title">ShadowSocks on Chromebook</h1>
+
+    
+
+    <div class="post-meta">
+      <time datetime="2017-01-13" class="post-meta__date date">2017-01-13</time> 
+
+      <span class="post-meta__tags tags">
+
+          
+
+          
+
+      </span>
+    </div>
+    
+    
+
+  </header>
+
+  <section id="post-content" class="article-content post">
+    <h3 id="本文章转载自-http-www-zhyi828-com-shadowsocks-on-chromebook-html-comment-259"><a href="#本文章转载自-http-www-zhyi828-com-shadowsocks-on-chromebook-html-comment-259" class="headerlink" title="本文章转载自 http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259"></a>本文章转载自 <a href="http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259" target="_blank" rel="external">http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259</a></h3><h2 id="本文介绍如何在chromebook上利用shadowsock进行科学上网。"><a href="#本文介绍如何在chromebook上利用shadowsock进行科学上网。" class="headerlink" title="本文介绍如何在chromebook上利用shadowsock进行科学上网。"></a>本文介绍如何在chromebook上利用shadowsock进行科学上网。</h2><p>当然前提是你要有自己的SS账号，详情不表。</p>
+<p>在CB上利用SS科学上网有以下两种方法：</p>
+<h3 id="一、在crouton或Dev-OS中开启SS"><a href="#一、在crouton或Dev-OS中开启SS" class="headerlink" title="一、在crouton或Dev OS中开启SS"></a>一、在crouton或Dev OS中开启SS</h3><p>这种方法需要在CB上通过crouton安装有linux或安装有直接安装有Dev OS并已成功连接SS，如图。</p>
+<p>1、回到chromeos，在chrome商店中找到Proxy SwitchyOmega并添加至Chrome。</p>
+<p>2、添加成功后，chrome又上角会出现SwitchyOmega标志，进入SwitchyOmega选项，点击左边栏新建情景模式，名称自选，选择代理服务器模式。</p>
+<p>选择ss for cb解压后的文件夹</p>
+<p>3、如图选择代理协议SOCK5，代理服务器为本地地址127.0.0.1，端口与SS的本地代理端口相同，此处以1080为例。</p>
+<p>4、保存后再次新建，选择自动切换模式，规则列表规则选之前配置好的SS，规则列表格式选AutoProxy，规则列表网址，填<br><code>https://autoproxy-gfwlist.googlecode.com/svn/trunk/gfwlist.txt</code><br> ，然后点立即更新情景模式。正文中出现地址列表即为成功。</p>
+<p>5、需要科学上网时选择刚刚这个自动切换模式即可。</p>
+<h3 id="二、在原生Chrome-OS中开启SS"><a href="#二、在原生Chrome-OS中开启SS" class="headerlink" title="二、在原生Chrome OS中开启SS"></a>二、在原生Chrome OS中开启SS</h3><h4 id="首先安装shadowsocks-for-chromebook，SS源码在此Github"><a href="#首先安装shadowsocks-for-chromebook，SS源码在此Github" class="headerlink" title="首先安装shadowsocks for chromebook，SS源码在此Github"></a>首先安装shadowsocks for chromebook，SS源码在此<a href="https://github.com/shadowsocks/shadowsocks-chromeapp" target="_blank" rel="external">Github</a></h4><h4 id="国内有zohead大神编译好了，大家直接拿来用就好-Baidu-Pan-，下载，解压。"><a href="#国内有zohead大神编译好了，大家直接拿来用就好-Baidu-Pan-，下载，解压。" class="headerlink" title="国内有zohead大神编译好了，大家直接拿来用就好 Baidu Pan ，下载，解压。"></a>国内有zohead大神编译好了，大家直接拿来用就好 <a href="http://pan.baidu.com/s/1e1i4Q" target="_blank" rel="external">Baidu Pan</a> ，下载，解压。</h4><p>在扩展程序里 chrome://extensions/，将“开发者模式”勾上，就可以安装自己下载的第三方app了，点“加载正在开发的扩展程序”。</p>
+<p>填入服务器、端口、密码，save后窗口不会关闭，请将其最小化</p>
+<p>之后下载安装switchyomega，配置，就能FQ了。</p>
+<p>至此两种方法已经介绍完毕，感谢Unee Wang和Zohead两位大神的帮助！</p>
+<h3 id="声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。"><a href="#声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。" class="headerlink" title="声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。"></a>声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。</h3>
+  </section>
+
+  
+
+<section class="post-comments">
+  <div id="disqus_thread"></div>
+  <script type="text/javascript">
+      var disqus_shortname = 'rednikxyz'; 
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+  
+</article>
+
+
+            <footer class="footer">
+    <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次，您的<a href="https://rednik.xyz/2016/10/18/Support/">赞助</a>是本网站持久运行的动力</span>
+    <span class="footer__copyright">&copy; 2014-2016 Rednik. Attribution, NonCommercial, ShareAlike <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons 4.0 International License. </a> | Powered by <a href="https://hexo.io/">Hexo</a> | Theme by <a href="https://github.com/someus/huno">Huno</a></span>
+</footer>
+
+        </div>
+    </div>
+
+    <!-- js files -->
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/scale.fix.js"></script>
+    
+
+    
+
+    <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript"> 
+        $(document).ready(function(){
+            MathJax.Hub.Config({ 
+                tex2jax: {inlineMath: [['[latex]','[/latex]'], ['\\(','\\)']]} 
+            });
+        });
+    </script>
+
+
+    
+
+    <script src="/js/awesome-toc.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $.awesome_toc({
+                overlay: true,
+                contentId: "post-content",
+            });
+        });
+    </script>
+
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-79198459-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+    
+
+    <script src="/js/jquery.githubRepoWidget.min.js"></script>
+
+
+    <!--kill ie6 -->
+<!--[if IE 6]>
+  <script src="//letskillie6.googlecode.com/svn/trunk/2/zh_CN.js"></script>
+<![endif]-->
+
+</body>
+</html>
