@@ -10,7 +10,7 @@
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
+<meta name="theme-color" content="#333">
 
 
 
@@ -62,7 +62,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#333">
 
 
 
@@ -95,7 +95,7 @@
     root: '/',
     scheme: 'Pisces',
     version: '5.1.4',
-    sidebar: {"position":"right","display":"always","offset":12,"b2t":true,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"always","offset":12,"b2t":true,"scrollpercent":false,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":true,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -121,7 +121,7 @@
 
 
 
-  <title>Xia Hua's Tech Blog</title>
+  <title>Xia Hua's Tech Blog - Elohim, Essaim.   Elohim, Essaim.  I implore you</title>
   
 
 
@@ -140,7 +140,7 @@
     
   
 
-  <div class="container sidebar-position-right 
+  <div class="container sidebar-position-left 
   page-home">
     <div class="headband"></div>
 
@@ -157,7 +157,7 @@
       </a>
     </div>
       
-        <h1 class="site-subtitle" itemprop="description">Elohim, Essaim. Elohim, Essaim. I implore you</h1>
+        <h1 class="site-subtitle" itemprop="description">Elohim, Essaim.   Elohim, Essaim.  I implore you</h1>
       
   </div>
 
@@ -187,12 +187,72 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
               <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
             
             Archives
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            Schedule
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-sitemap">
+          <a href="/sitemap.xml" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-sitemap"></i> <br />
+            
+            Sitemap
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-commonweal">
+          <a href="/404/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
+            
+            Commonweal 404
           </a>
         </li>
       
@@ -234,7 +294,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -293,6 +353,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -311,12 +402,16 @@
       
         
           
-            <h3 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h3><p>关于Debain 环境下的linux相信大家并不陌生，<br>树莓派就是其一。由于原来系统中的自带浏览器并不能满足主流的浏览需求，所以我要们切换到Chromeium</p>
-<h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>只需要把下面代码复制到Terminal 然后运行就可以了<br><code>wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.deb</code><br><code>wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code><br><code>wget https://dl.dropboxusercontent.com/u/87113035/chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code><br><code>sudo dpkg -i chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code><br><code>sudo dpkg -i chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.deb chromium-browser_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code></p>
-<p>之后在启动菜单里面的Internet里面选择Chromeium就好了</p>
-<h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>关于版本号，这个是算一个比较旧的版本，如果链接失效了或者无法下载，还请各位告知一下我。</p>
-
-          
+          缘由关于Debain 环境下的linux相信大家并不陌生，树莓派就是其一。由于原来系统中的自带浏览器并不能满足主流的浏览需求，所以我要们切换到Chromeium
+方法只需要把下面代码复制到Terminal 然后运行就可以了wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.debwget https://dl.dropboxusercontent.com/u/87113035/chromium-browser_45.0.245
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/09/21/为树莓派安装Chromeium/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -368,7 +463,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -427,6 +522,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -445,9 +571,16 @@
       
         
           
-            <p>暂时还没有写好……</p>
+          暂时还没有写好……
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/09/20/突破限制时长使用Wi-Fi/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -499,7 +632,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -558,6 +691,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -576,30 +740,19 @@
       
         
           
-            <h2 id="引语"><a href="#引语" class="headerlink" title="引语"></a>引语</h2><p>这是我的一个突发奇想，在一次旅途中，我的Macbook连接上了某个有条件才能连接的Wi-Fi，怎么样才能够使用我的Macbook（PC），让我所有的电子设备（Android ＋ iOS）都能够限制特定设备享用的Wifi呢？</p>
-<p>或许大家会感到束手无策，但是只要使用了PC平台，和一个USB的Wi-Fi 网卡，这个问题就能够迎刃而解。</p>
-<h2 id="使用的实例"><a href="#使用的实例" class="headerlink" title="使用的实例"></a>使用的实例</h2><ol>
-<li>某美国航班可以在飞机上使用Wi-Fi，而这个连接的要求是需要T-Mobile的手机用户才能够获得无线连接，使用PC作为接入设备，能够让飞机上的游客享受免费的Wi-Fi。</li>
-<li>Xfinity Wi-Fi 有免费一小时的网络连接，但是每月对MAC地址的限制，如何使用有限的电子设备，来享用全设备接入的的Wi-Fi服务？</li>
-<li>某些校园网络只对学生开放网络连接，如何让拜访你学区的家人，使用学校的互联网呢？</li>
-</ol>
-<h2 id="实战"><a href="#实战" class="headerlink" title="实战"></a>实战</h2><p>好了，问题就提到这里。现在是实际操作的时间。</p>
-<p>我现在有一台Macbook，一个无线网卡。电脑里面已经装好了Windows 10 的VirtualBox虚拟机。</p>
-<p>现在我的思路是，让Windows虚拟机连接USB 网卡，建立Windows 下的无线网络。</p>
-<p>在这里，本VirtualBox虚拟机的内建互联网已经连接上OSX的无线网络。</p>
-<ol>
-<li>在VirtualBox上边栏里面选择 Devices–&gt; USB –&gt; WLAN （选择你的USB网卡）</li>
-<li>若无需驱动就能自动识别，那是最好的情况。打开CMD 输入<br><code>netsh wlan set hostednetwork mode=allow ssid=你的路由名称 key=你的密码</code></li>
-<li>只后需要打开这个虚拟的AP<br><code>netsh wlan start hostednetwork</code></li>
-<li>然后在控制面板，找到 Network and Internet –&gt; Network Connections</li>
-<li>选择Enthernet 右键属性 选择在上面的选项卡点击 共享</li>
-<li>勾选第一个，然后选择你的虚拟AP 名称：Local Area Connection ** （可能不同）</li>
-<li>这样就设置好了Wi-Fi的转发了。</li>
-</ol>
-<p>使用你的手机或者其他电子设备检验Wi-Fi是不是已经开始运作。</p>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>这是一个简单的多网卡Wi-Fi应用实例，通过现有的无线网络进行Wi-Fi二级中继。这个只适合个人使用，希望这个教程对各位有帮助。</p>
-
-          
+          引语这是我的一个突发奇想，在一次旅途中，我的Macbook连接上了某个有条件才能连接的Wi-Fi，怎么样才能够使用我的Macbook（PC），让我所有的电子设备（Android ＋ iOS）都能够限制特定设备享用的Wifi呢？
+或许大家会感到束手无策，但是只要使用了PC平台，和一个USB的Wi-Fi 网卡，这个问题就能够迎刃而解。
+使用的实例
+某美国航班可以在飞机上使用Wi-Fi，而这个连接的要求是需要T-Mobile的手机用户才能够获得无线连接，使用PC作为接入设备，能够让飞机上的游客享受免费的Wi-Fi。
+Xfinity Wi-Fi 有免费一小时的网络连接，但是每月对MAC地址的限制，如何
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/09/15/使用现有无线网络进行Wi-Fi二级中继方案/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -651,7 +804,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -710,6 +863,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -728,28 +912,18 @@
       
         
           
-            <p>##Arduino UNO R3 上手测试</p>
-<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Arduino 作为一款偏向硬件控制的单片机，相比Raspberry Pi 3，我当时购入的Starter kit 有很多有趣的控，比如NFC卡，JoyStick，Speaker，一堆我都不知道怎么玩的东西qwq。感觉就是一个很强大的控制模块。经过几天的捣鼓，暂时知道了一些基本的玩法，现在向大家介绍一下。</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><h5 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h5><p>首先我寄来的时候是一堆乱七八糟的零件包，如果是小白的话估计也被弄晕，我之前没有接触过Arduino，当时到手的时候连开机都不知道如何开启…（图）（图）</p>
-<p>当然，我发现了一条USB-B的连接线，这大概就是主板的编程线了，所以顺着这个逻辑很快就找到了主板module ，之后的一天都在捣鼓配件的安装和主板上的接口调查。</p>
-<p>（图片）</p>
-<h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><h5 id="Macbook-OS-X-EI-Capitan-10-11-5"><a href="#Macbook-OS-X-EI-Capitan-10-11-5" class="headerlink" title="Macbook OS X EI Capitan 10.11.5"></a>Macbook OS X EI Capitan 10.11.5</h5><p>由于我用的是Macbook，驱动方面首先就是没有的，需要自行添加。这里有一个地址，是我在网站上面找到的。我现在会上传到本站下载，同时这是一个本站资源下载测试的项目。</p>
-<p>关于更多的信息，如果你的EI Captain 系统没有关闭csurtil机制，这样驱动是无法安装成功的。</p>
-<blockquote>
-<p>在OSX 10.11下是无法直接安装第三方驱动的，因为苹果的Rootless新机制（几个系统目录连root用户也没有权限读写），现在只需要关了就可以了。</p>
-</blockquote>
-<p>实现方法：</p>
-<ol>
-<li>重启，开机按住Command + R</li>
-<li>进入Mac的RecoveryHD（图形界面）</li>
-<li>用Terminal(终端) 执行： csrutil disable </li>
-<li>重启</li>
-</ol>
-<p>这样一来就可以安装驱动了。</p>
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><h5 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h5><p>现在驱动的方面都准备好了，接下来就是对编程语言和硬件适配的练习了。</p>
-<h3 id="第一个Ardunio-程序"><a href="#第一个Ardunio-程序" class="headerlink" title="第一个Ardunio 程序"></a>第一个Ardunio 程序</h3><p>在这里我发现Ardunio 需要很多自己的</p>
-
-          
+          ##Arduino UNO R3 上手测试
+简介Arduino 作为一款偏向硬件控制的单片机，相比Raspberry Pi 3，我当时购入的Starter kit 有很多有趣的控，比如NFC卡，JoyStick，Speaker，一堆我都不知道怎么玩的东西qwq。感觉就是一个很强大的控制模块。经过几天的捣鼓，暂时知道了一些基本的玩法，现在向大家介绍一下。
+安装硬件首先我寄来的时候是一堆乱七八糟的零件包，如果是小白的话估计也被弄晕，我之前没有接触过Arduino，当时到手的时候连开机都不知道如何开启…（图）（图）
+当然，我发现了一条USB-B的连接线，这大概就是主板的编程线了，所以顺着这个逻辑很快
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/29/Arduino-UNO-R3-上手测试/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -801,7 +975,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -860,6 +1034,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -878,10 +1083,16 @@
       
         
           
-            <p>自己写的一个小文章，感觉不错就发上来了。</p>
-<p>Back to the time when I was in high school. One day, I was so disappointed because I spent a lot of time and effort on the physics group project, but my partner did not help much. I complained it with my dad. To my surprise, he was like:” We all have our own advantages and shortcomings. Never measure others corn by one’s own bushel. We should use our advantages to help each other instead of criticizing” That made me realize that people are different from each other, I like challenging myself do not mean everyone should be like that. Since then, I started to learn how to think other problem on theirs positions. Then I found that it is a good way to get a better understanding of my friends and effectively help them.<br>I learned time management skill from my mom. When I was complaining about teacher assigned us too much homework, she told me that:” Why don’t you finish your homework before you start playing computer games? “ I was stunned by these words. She continued:” Every one has 24 hours each day. But why others can allocate them properly between work, entrainment? The key is do the things that we unwilling to do first. Then we can have a much easier plan for the day. Always remember to be the lord of your life, don’t become the slave of your own time.” Because of these word, I started to try to be an early bird, and that influenced me a lot.</p>
-
-          
+          自己写的一个小文章，感觉不错就发上来了。
+Back to the time when I was in high school. One day, I was so disappointed because I spent a lot of time and effort on the physics group project, but my partner did not help much. I complained it with my dad. To my surprise, he was like:” We all have our own advantages and short
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/07/28/Article-of-Mine/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -933,7 +1144,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -992,6 +1203,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -1010,21 +1252,15 @@
       
         
           
-            <h2 id="Start-up"><a href="#Start-up" class="headerlink" title="Start up"></a>Start up</h2><p>Recently, BiliBili is in a boost of the user watching live channel, also many people start their business of using how to get started using the live broadcast softwares. Such as the OBS, and CopyLiu’s Danmu for Windows operating system. As a matter of fact, some user has Macbook or some Linux computer, they are facing a sever condition of unfriendly Chinese Software developing environment. Windows is also in the highest priority than other systems, and user of Mac the face become :( So I am one of them, after a few days struggling, I found some replaceable ways to access the Danmu function like in Windows. Let’s have a look.</p>
-<p>I found the project of <a href="https://github.com/OctavianLee/Barrage" target="_blank" rel="noopener">Octavian</a>. He use Python to make a command line tool which shows : User Message &amp; Live Channel Count. (in Terminal).</p>
-<p>Here is the installation tutorial:</p>
-<h3 id="Step-1"><a href="#Step-1" class="headerlink" title="Step 1"></a>Step 1</h3><p>  Open your Terminal, Use the command to enter your unzip floder:<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> YOUR-FOLDER-LOCATION</span><br></pre></td></tr></table></figure></p>
-<h3 id="Step-2"><a href="#Step-2" class="headerlink" title="Step 2"></a>Step 2</h3><p>  Then You have installed the latest Python. <a href="https://www.python.org/downloads/mac-osx" target="_blank" rel="noopener">Go to the website download the Python for Mac.</a></p>
-<p> <strong>Tips. I recommend download the Python 3.</strong></p>
-<h3 id="Step-3"><a href="#Step-3" class="headerlink" title="Step 3"></a>Step 3</h3><p>  Use the pip commnad to build meet the requirement of the software.<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip install -r requirements.txt</span><br></pre></td></tr></table></figure></p>
-<h3 id="Step-4"><a href="#Step-4" class="headerlink" title="Step 4"></a>Step 4</h3><p>  Run the python command line(NO GUI).<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">python main.py</span><br></pre></td></tr></table></figure></p>
-<h3 id="Summary"><a href="#Summary" class="headerlink" title="Summary"></a>Summary</h3><p>If you successfully run those command above. You should see the selection menu on the screen.</p>
-<p>Type “1” to select the room number, and receive the message from that channel.</p>
-<p>Type “2” to login Bilibili, and find out the part to get assess your account and send message. (But this function havn’t successed yet. BiliBili always changes their API)</p>
-<p>If you done those. You should have your Danmu Machine working in you Terminal. In every 5 seconds it shows the count of live channel watcher. Also receiving the message.</p>
-<p>Nice day.</p>
-
-          
+          Start upRecently, BiliBili is in a boost of the user watching live channel, also many people start their business of using how to get started using the live broadcast softwares. Such as the OBS, and CopyLiu’s Danmu for Windows operating system. As a matter of fact, some user has Macbook or some Linu
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/09/BiliBili-live-Danmu-on-Mac-OS-X/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1076,7 +1312,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/icon.jpg">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -1135,6 +1371,37 @@
           
 
           
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  
+                </span>
+              
+            </div>
+          
 
           
 
@@ -1153,13 +1420,20 @@
       
         
           
-            <h2 id="这里是中文测试"><a href="#这里是中文测试" class="headerlink" title="这里是中文测试"></a>这里是中文测试</h2><h3 id="大家好～"><a href="#大家好～" class="headerlink" title="大家好～"></a>大家好～</h3><p>你们有一个好，全世界跑到什么地方，你们比西方记者跑得还快，但是问来问去的问题呀，都 too simple ， sometimes naive ！懂了没有？</p>
-<p>你们有一个好，全世界跑到什么地方，你们比西方记者跑得还快，但是问来问去的问题呀，都 too simple ， sometimes naive ！懂了没有？</p>
-<p>你们有一个好，全世界跑到什么地方，你们比西方记者跑得还快，但是问来问去的问题呀，都 too simple ， sometimes naive ！懂了没有？</p>
-<p> I’m angry！你们这样子是不行的！我今天算是得罪了你们一下！</p>
-<p><img src="/images/print.jpg" alt="蛤蛤"></p>
+          这里是中文测试大家好～你们有一个好，全世界跑到什么地方，你们比西方记者跑得还快，但是问来问去的问题呀，都 too simple ， sometimes naive ！懂了没有？
+你们有一个好，全世界跑到什么地方，你们比西方记者跑得还快，但是问来问去的问题呀，都 too simple ， sometimes naive ！懂了没有？
+你们有一个好，全世界跑到什么地方，你们比西方记者跑得还快，但是问来问去的问题呀，都 too simple ， sometimes naive ！懂了没有？
+ I’m angry！你们这样子是不行的！我今天算是得罪了你们一下！
+
 
           
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2016/06/09/中文测试Chinese-Test/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -1232,6 +1506,10 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image"
+                src="/images/icon.jpg"
+                alt="Xia Hua" />
+            
               <p class="site-author-name" itemprop="name">Xia Hua</p>
               <p class="site-description motion-element" itemprop="description"></p>
           </div>
@@ -1282,7 +1560,7 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="https://plus.google.com/rednik111" target="_blank" title="Google">
+                    <a href="https://www.google.com" target="_blank" title="Google">
                       
                         <i class="fa fa-fw fa-google"></i>Google</a>
                   </span>
@@ -1310,12 +1588,16 @@
             <div class="links-of-blogroll motion-element links-of-blogroll-block">
               <div class="links-of-blogroll-title">
                 <i class="fa  fa-fw fa-link"></i>
-                Links
+                个人作品
               </div>
               <ul class="links-of-blogroll-list">
                 
                   <li class="links-of-blogroll-item">
-                    <a href="http://example.com/" title="Title" target="_blank">Title</a>
+                    <a href="https://nekospeed.com/" title="喵速网" target="_blank">喵速网</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://lucillecao.com/" title="喵站" target="_blank">喵站</a>
                   </li>
                 
               </ul>
@@ -1350,8 +1632,17 @@
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">Xia Hua</span>
+  <span class="author" itemprop="copyrightHolder">Xia Hua 2018 all rights reserved</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count"></span>
   
 </div>
 
