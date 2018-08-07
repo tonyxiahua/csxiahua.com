@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
+
+
+
   
-  <title>Xia Hua&#39;s Tech Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+
+
+<html class="theme-next muse use-motion" lang="zh_CH">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Xia Hua's Tech Blog">
 <meta property="og:url" content="https://csxiahua.com/index.html">
@@ -14,236 +88,221 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Xia Hua's Tech Blog">
 <meta name="twitter:description">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://csxiahua.com/"/>
+
+
+
+
+
+  <title>Xia Hua's Tech Blog</title>
   
-    <link rel="alternative" href="/atom.xml" title="Xia Hua&#39;s Tech Blog" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/img/favicon.png">
-  
-  
-      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  
-    
-    
-  
-  
-      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  
-  <!-- 加载特效 -->
-    <script src="/js/pace.js"></script>
-    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
-  <script>
-      var yiliaConfig = {
-          rootUrl: '/',
-          fancybox: true,
-          animate: true,
-          isHome: true,
-          isPost: false,
-          isArchive: false,
-          isTag: false,
-          isCategory: false,
-          open_in_new: true
-      }
-  </script>
+
+
+
+
+
+
+
+
 </head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        <a href="/" class="profilepic">
-            
-            <img lazy-src="/img/favicon.jpg" class="js-avatar">
-            
-        </a>
 
-        <hgroup>
-          <h1 class="header-author"><a href="/" title="Hi Mate">Xia Hua</a></h1>
-        </hgroup>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh_CH">
 
-        
-        <p class="header-subtitle">Elohim, Essaim. Elohim, Essaim. I implore you</p>
-        
-        
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        <div class="icon-wrap icon-link hide" data-idx="2">
-                            <div class="loopback_l"></div>
-                            <div class="loopback_r"></div>
-                        </div>
-                        
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        <li>友情链接</li>
-                        
-                        
-                        <li>关于我</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        
+  
+  
+    
+  
 
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/#">Index</a></li>
-                        
-                            <li><a href="/works">Works</a></li>
-                        
-                            <li><a href="/about">About</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fl mail" target="_blank" href="mailto:contact@csxiahua.com" title="mail">mail</a>
-                            
-                                <a class="fl github" target="_blank" href="https://github.com/tonyxiahua" title="github">github</a>
-                            
-                                <a class="fl linkedin" target="_blank" href="https://www.linkedin.com/in/hua-xia-13a71711b/" title="linkedin">linkedin</a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/3hBWpYhdsX5C/" style="font-size: 10px;">3hBWpYhdsX5C</a> <a href="/tags/A4/" style="font-size: 20px;">A4</a> <a href="/tags/Adobe/" style="font-size: 10px;">Adobe</a> <a href="/tags/Arduino/" style="font-size: 10px;">Arduino</a> <a href="/tags/Assembly/" style="font-size: 10px;">Assembly</a> <a href="/tags/Audi/" style="font-size: 20px;">Audi</a> <a href="/tags/Audition/" style="font-size: 10px;">Audition</a> <a href="/tags/B6/" style="font-size: 10px;">B6</a> <a href="/tags/Bilibili/" style="font-size: 10px;">Bilibili</a> <a href="/tags/Break/" style="font-size: 10px;">Break</a> <a href="/tags/C/" style="font-size: 15px;">C++</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/Chromebook/" style="font-size: 10px;">Chromebook</a> <a href="/tags/ChromenOS/" style="font-size: 10px;">ChromenOS</a> <a href="/tags/Environment/" style="font-size: 10px;">Environment</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/MacOS/" style="font-size: 10px;">MacOS</a> <a href="/tags/Pixel/" style="font-size: 15px;">Pixel</a> <a href="/tags/Telegram/" style="font-size: 10px;">Telegram</a> <a href="/tags/Wi-Fi/" style="font-size: 15px;">Wi-Fi</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/codes/" style="font-size: 10px;">codes</a> <a href="/tags/个人/" style="font-size: 10px;">个人</a> <a href="/tags/人生/" style="font-size: 10px;">人生</a> <a href="/tags/保养/" style="font-size: 10px;">保养</a> <a href="/tags/充电器/" style="font-size: 10px;">充电器</a> <a href="/tags/公众号/" style="font-size: 10px;">公众号</a> <a href="/tags/单片机/" style="font-size: 15px;">单片机</a> <a href="/tags/后期处理/" style="font-size: 10px;">后期处理</a> <a href="/tags/喷漆/" style="font-size: 10px;">喷漆</a> <a href="/tags/学习/" style="font-size: 10px;">学习</a> <a href="/tags/弹幕/" style="font-size: 10px;">弹幕</a> <a href="/tags/技术/" style="font-size: 10px;">技术</a> <a href="/tags/故障/" style="font-size: 10px;">故障</a> <a href="/tags/教程/" style="font-size: 10px;">教程</a> <a href="/tags/无线/" style="font-size: 10px;">无线</a> <a href="/tags/无线网络/" style="font-size: 10px;">无线网络</a> <a href="/tags/树莓派/" style="font-size: 15px;">树莓派</a> <a href="/tags/汽车研究/" style="font-size: 10px;">汽车研究</a> <a href="/tags/测试/" style="font-size: 20px;">测试</a> <a href="/tags/生活/" style="font-size: 15px;">生活</a> <a href="/tags/留学/" style="font-size: 10px;">留学</a> <a href="/tags/直播/" style="font-size: 10px;">直播</a> <a href="/tags/研究/" style="font-size: 10px;">研究</a> <a href="/tags/破解/" style="font-size: 10px;">破解</a> <a href="/tags/科技/" style="font-size: 10px;">科技</a> <a href="/tags/网络/" style="font-size: 15px;">网络</a>
-                    </div>
-                </section>
-                
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://tonyxiahua.github.io/">name</a>
-                    
-                    </div>
-                </section>
-                
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
 
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">blank,blank</div>
-                </section>
-                
-            </div>
-        </div>
-    </header>                
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Xia Hua's Tech Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Elohim, Essaim. Elohim, Essaim. I implore you</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="Me">Xia Hua</a></h1>
-      </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                
-                    <img lazy-src="/img/favicon.jpg" class="js-avatar">
-                
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="Me">Xia Hua</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">Elohim, Essaim. Elohim, Essaim. I implore you</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/#">Index</a></li>
-                
-                    <li><a href="/works">Works</a></li>
-                
-                    <li><a href="/about">About</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a class="mail" target="_blank" href="mailto:contact@csxiahua.com" title="mail">mail</a>
-                    
-                        <a class="github" target="_blank" href="https://github.com/tonyxiahua" title="github">github</a>
-                    
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/hua-xia-13a71711b/" title="linkedin">linkedin</a>
-                    
-                </div>
-            </nav>
-        </header>                
-    </div>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-ShadowSocks-on-Chromebook" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/13/ShadowSocks-on-Chromebook/" class="article-date">
-      <time datetime="2017-01-14T04:10:57.000Z" itemprop="datePublished">2017-01-13</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/13/ShadowSocks-on-Chromebook/">ShadowSocks on Chromebook</a>
-    </h1>
+
+<nav class="site-nav">
   
 
-      </header>
+  
+    <ul id="menu" class="menu">
       
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
     
-    <div class="article-entry" itemprop="articleBody">
       
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2017/01/13/ShadowSocks-on-Chromebook/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/13/ShadowSocks-on-Chromebook/" itemprop="url">ShadowSocks on Chromebook</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-13T20:10:57-08:00">
+                2017-01-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h3 id="本文章转载自-http-www-zhyi828-com-shadowsocks-on-chromebook-html-comment-259"><a href="#本文章转载自-http-www-zhyi828-com-shadowsocks-on-chromebook-html-comment-259" class="headerlink" title="本文章转载自 http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259"></a>本文章转载自 <a href="http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259" target="_blank" rel="external">http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259</a></h3><h2 id="本文介绍如何在chromebook上利用shadowsock进行科学上网。"><a href="#本文介绍如何在chromebook上利用shadowsock进行科学上网。" class="headerlink" title="本文介绍如何在chromebook上利用shadowsock进行科学上网。"></a>本文介绍如何在chromebook上利用shadowsock进行科学上网。</h2><p>当然前提是你要有自己的SS账号，详情不表。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="本文章转载自-http-www-zhyi828-com-shadowsocks-on-chromebook-html-comment-259"><a href="#本文章转载自-http-www-zhyi828-com-shadowsocks-on-chromebook-html-comment-259" class="headerlink" title="本文章转载自 http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259"></a>本文章转载自 <a href="http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259" target="_blank" rel="external">http://www.zhyi828.com/shadowsocks-on-chromebook.html#comment-259</a></h3><h2 id="本文介绍如何在chromebook上利用shadowsock进行科学上网。"><a href="#本文介绍如何在chromebook上利用shadowsock进行科学上网。" class="headerlink" title="本文介绍如何在chromebook上利用shadowsock进行科学上网。"></a>本文介绍如何在chromebook上利用shadowsock进行科学上网。</h2><p>当然前提是你要有自己的SS账号，详情不表。</p>
 <p>在CB上利用SS科学上网有以下两种方法：</p>
 <h3 id="一、在crouton或Dev-OS中开启SS"><a href="#一、在crouton或Dev-OS中开启SS" class="headerlink" title="一、在crouton或Dev OS中开启SS"></a>一、在crouton或Dev OS中开启SS</h3><p>这种方法需要在CB上通过crouton安装有linux或安装有直接安装有Dev OS并已成功连接SS，如图。</p>
 <p>1、回到chromeos，在chrome商店中找到Proxy SwitchyOmega并添加至Chrome。</p>
@@ -257,118 +316,244 @@
 <p>之后下载安装switchyomega，配置，就能FQ了。</p>
 <p>至此两种方法已经介绍完毕，感谢Unee Wang和Zohead两位大神的帮助！</p>
 <h3 id="声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。"><a href="#声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。" class="headerlink" title="声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。"></a>声明：本文仅供学术讨论之用，任何利用本文提到之方法做出的违反我国法律法规等行为，本人概不负责。</h3>
-      
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-Chromebook-Pixel-2013-Lightbar-Switch" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2017/01/06/Chromebook-Pixel-2013-Lightbar-Switch/" class="article-date">
-      <time datetime="2017-01-06T17:54:13.000Z" itemprop="datePublished">2017-01-06</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/01/06/Chromebook-Pixel-2013-Lightbar-Switch/">Chromebook Pixel 2013 Lightbar Switch</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
           
         
       
-      
     </div>
     
-    <div class="article-info article-info-index">
-      
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
 
       
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ChromenOS/">ChromenOS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pixel/">Pixel</a></li></ul>
-    </div>
 
       
-      <div class="clearfix"></div>
-    </div>
-    
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Audi-B6-A4-Break-Fluid-Warning-on-cold-days" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/12/08/Audi-B6-A4-Break-Fluid-Warning-on-cold-days/" class="article-date">
-      <time datetime="2016-12-09T04:45:32.000Z" itemprop="datePublished">2016-12-08</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2017/01/06/Chromebook-Pixel-2013-Lightbar-Switch/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/01/06/Chromebook-Pixel-2013-Lightbar-Switch/" itemprop="url">Chromebook Pixel 2013 Lightbar Switch</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-06T09:54:13-08:00">
+                2017-01-06
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/08/Audi-B6-A4-Break-Fluid-Warning-on-cold-days/">Audi B6 A4 Break Fluid Warning on cold days</a>
-    </h1>
+  
+  
+  </article>
+
+
+    
+      
+
   
 
-      </header>
-      
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/12/08/Audi-B6-A4-Break-Fluid-Warning-on-cold-days/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-    <div class="article-entry" itemprop="articleBody">
-      
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/12/08/Audi-B6-A4-Break-Fluid-Warning-on-cold-days/" itemprop="url">Audi B6 A4 Break Fluid Warning on cold days</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-08T20:45:32-08:00">
+                2016-12-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>冬天来得很快，一转眼又一年都快要结束了。 在这么寒冷的天气里我的汽车难免出现一些意外的报警，这次是什么呢？刹车系统 Brake Fluid Warning on cold days。 只有在寒冷的天气里，我的车就会出现嘀嘀得手刹灯报警，而且这个报警运气不好的话会一直持续下去，实在是难以忍受，于是去询问了Google，发现有不少的车友都有这个问题。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>冬天来得很快，一转眼又一年都快要结束了。 在这么寒冷的天气里我的汽车难免出现一些意外的报警，这次是什么呢？刹车系统 Brake Fluid Warning on cold days。 只有在寒冷的天气里，我的车就会出现嘀嘀得手刹灯报警，而且这个报警运气不好的话会一直持续下去，实在是难以忍受，于是去询问了Google，发现有不少的车友都有这个问题。</p>
 <p>I am getting what I think is low brake fluid warning (Brake light flash three times with beeps, then goes away) only when I turn right, and only when cold. This has been going on for a couple weeks, used to only happen in the morning when it was cold, but happened today on my way home when it was still only 28 degrees F. Brakes work fine, and I can’t tell if the fluid is low because I cant see past the screen in the reservoir. Seems like it probably isn’t fluid because like I said, happens only on right turns and only when under 40 degrees. 2005 A6 3.2</p>
 <p>这个在说我的刹车片磨损了然后导致刹车液降低，从而引发报警。</p>
 <p>Had a similar situation in an A4 I used to have with a brake warning light only when turning. Turned out to be a caliper bleeder screw that wasn’t sealing well and allowed fluid to leak out when I turned in one direction only (extra fluid was sent to that wheel by the g-forces). Check each wheel on a dry day to see if there’s evidence of brake fluid on the calipers, rotors, or wheels after a short drive with lots of braking and turns.</p>
@@ -385,125 +570,247 @@
 <p>更新：</p>
 <p>由于刹车片的磨损导致刹车液面的下降，最好触发了汽车自己检查系统的报错，最后我通过冲洗刹车系统然后放进去新液体让这个系统重新恢复工作，现在这辆车再也不会出现报警了。</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/A4/">A4</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Audi/">Audi</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Break/">Break</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Chromebook-Pixel-2013-Developer-Mode" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/12/04/Chromebook-Pixel-2013-Developer-Mode/" class="article-date">
-      <time datetime="2016-12-04T17:49:04.000Z" itemprop="datePublished">2016-12-04</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/12/04/Chromebook-Pixel-2013-Developer-Mode/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/12/04/Chromebook-Pixel-2013-Developer-Mode/">Chromebook Pixel 2013 Developer Mode</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/12/04/Chromebook-Pixel-2013-Developer-Mode/" itemprop="url">Chromebook Pixel 2013 Developer Mode</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-04T09:49:04-08:00">
+                2016-12-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h2 id="Why-should-I-write-this"><a href="#Why-should-I-write-this" class="headerlink" title="Why should I write this?"></a>Why should I write this?</h2><p>Becuse more and more people stuck in the process get promoted to superuser and make changes to thier computer.<br>Those functions are automatically disabled by OEM. We have to gain the super user power then we can have better functional computer.</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="Why-should-I-write-this"><a href="#Why-should-I-write-this" class="headerlink" title="Why should I write this?"></a>Why should I write this?</h2><p>Becuse more and more people stuck in the process get promoted to superuser and make changes to thier computer.<br>Those functions are automatically disabled by OEM. We have to gain the super user power then we can have better functional computer.</p>
 <p>Here are some website we can study for it:</p>
 <p>(3G)[<a href="http://www.techulator.com/resources/13041-How-to-configure-3G-in-Chromebook-using-SIM-cards.aspx" target="_blank" rel="external">http://www.techulator.com/resources/13041-How-to-configure-3G-in-Chromebook-using-SIM-cards.aspx</a>]<br>(4G)[<a href="https://productforums.google.com/forum/#!topic/chromebook-central/oCDcUz0XUx0" target="_blank" rel="external">https://productforums.google.com/forum/#!topic/chromebook-central/oCDcUz0XUx0</a>]<br>(Crouton)[<a href="https://www.linux.com/learn/how-easily-install-ubuntu-chromebook-crouton%20" target="_blank" rel="external">https://www.linux.com/learn/how-easily-install-ubuntu-chromebook-crouton%20</a>]</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chrome/">Chrome</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Chromebook/">Chromebook</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pixel/">Pixel</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Audi-B6-A4-DIY-教程网站" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/11/30/Audi-B6-A4-DIY-教程网站/" class="article-date">
-      <time datetime="2016-11-30T13:29:37.000Z" itemprop="datePublished">2016-11-30</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/11/30/Audi-B6-A4-DIY-教程网站/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/30/Audi-B6-A4-DIY-教程网站/">Audi B6 A4 DIY 教程网站</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/11/30/Audi-B6-A4-DIY-教程网站/" itemprop="url">Audi B6 A4 DIY 教程网站</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-30T05:29:37-08:00">
+                2016-11-30
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>有几个非常有用的Audi B6 A4 网站，想到在2016 年的今天还能找到这些2005 年的修复网站实在是非常不容易。我刚刚好打印下载了这些文章，以供大家以后的参考。如果大家想要更多的修复资料，我这里还有一些。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>有几个非常有用的Audi B6 A4 网站，想到在2016 年的今天还能找到这些2005 年的修复网站实在是非常不容易。我刚刚好打印下载了这些文章，以供大家以后的参考。如果大家想要更多的修复资料，我这里还有一些。</p>
 <p><a href="http://www.audiworld.com/tech-articles/" target="_blank" rel="external">Tech Articles</a></p>
 <p><a href="http://www.audizine.com/forum/showthread.php/59749-B6-A4-S4-Symphony-II-to-RNS-E-(OEM-DVD-based-Navigation" target="_blank" rel="external">B6 A4/S4 - Symphony II to RNS-E (OEM DVD based Navigation)</a>)</p>
 <p><a href="http://www.audidiy.com/b6a4.php" target="_blank" rel="external">Audi DIY</a></p>
@@ -513,64 +820,125 @@
 <p><a href=""></a></p>
 <p><a href="http://www.audiworld.com/tech/eng117.shtml" target="_blank" rel="external">Coolant Temperature Sensor replacement ‘02 S6</a></p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/3hBWpYhdsX5C/">3hBWpYhdsX5C</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-HttpDoser-Python-文件下载" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/11/26/HttpDoser-Python-文件下载/" class="article-date">
-      <time datetime="2016-11-26T19:04:56.000Z" itemprop="datePublished">2016-11-26</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/11/26/HttpDoser-Python-文件下载/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/26/HttpDoser-Python-文件下载/">HttpDoser Python 文件下载</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/11/26/HttpDoser-Python-文件下载/" itemprop="url">HttpDoser Python 文件下载</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-26T11:04:56-08:00">
+                2016-11-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h3 id="Interesting！"><a href="#Interesting！" class="headerlink" title="Interesting！"></a>Interesting！</h3><p>网站在我没有完善安全措施的时候就有黑客入侵本网站且改了密码。并且利用本主机对其他网站进行了DDOS 攻击，实在是太有趣了。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="Interesting！"><a href="#Interesting！" class="headerlink" title="Interesting！"></a>Interesting！</h3><p>网站在我没有完善安全措施的时候就有黑客入侵本网站且改了密码。并且利用本主机对其他网站进行了DDOS 攻击，实在是太有趣了。</p>
 <p>现在公开一下黑客使用代码的参数，这个代码执行了之后可以对网站进行DDOS攻击。我的另外一个网站rednik.pw， 处于我的好奇，使用了这一个脚本文件，使用完毕之后发现网站打不开了，是在是太有趣了。</p>
 <p>参数：<br>python HttpDoser.py XXXXXXXXXXXXXX   －XXXXXXXXXXXXX意为攻击的网站。</p>
 <h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><pre><code>import urllib2
@@ -747,120 +1115,246 @@ else:
         t.start()
 </code></pre><h3 id="事后"><a href="#事后" class="headerlink" title="事后"></a>事后</h3><p>当然，攻击他人电脑的行为是真的不道德，建议大家还是合理使用这段代码，说回被肉鸡，其实有很大的一部分原因是因为自己使用了弱口令，最近改了新密码，以后可能会会换成AWS的那种密匙登录，这样就万无一失了。</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/树莓派/">树莓派</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/网络/">网络</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Hexo-With-Cyberduck-Blog-Post" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/11/22/Hexo-With-Cyberduck-Blog-Post/" class="article-date">
-      <time datetime="2016-11-23T07:02:47.000Z" itemprop="datePublished">2016-11-22</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/11/22/Hexo-With-Cyberduck-Blog-Post/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/22/Hexo-With-Cyberduck-Blog-Post/">Hexo With Cyberduck Blog Post</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/11/22/Hexo-With-Cyberduck-Blog-Post/" itemprop="url">Hexo With Cyberduck Blog Post</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-22T23:02:47-08:00">
+                2016-11-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>这个网站是基于Linux的服务器，如何远程管理你的服务器是一节必修课。我的解决方案是使用Cyberduck + Putty（Windows平台）。 这两个工具几乎可以满足日常的博客维护需求。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>这个网站是基于Linux的服务器，如何远程管理你的服务器是一节必修课。我的解决方案是使用Cyberduck + Putty（Windows平台）。 这两个工具几乎可以满足日常的博客维护需求。</p>
 <p>###</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
       
 
       
       
-      <div class="clearfix"></div>
-    </div>
-    
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Windows-10-Chinese-Display-Error-Fix" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/11/22/Windows-10-Chinese-Display-Error-Fix/" class="article-date">
-      <time datetime="2016-11-22T13:25:13.000Z" itemprop="datePublished">2016-11-22</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/11/22/Windows-10-Chinese-Display-Error-Fix/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/22/Windows-10-Chinese-Display-Error-Fix/">Windows 10 Chinese Display Error Fix</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/11/22/Windows-10-Chinese-Display-Error-Fix/" itemprop="url">Windows 10 Chinese Display Error Fix</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-22T05:25:13-08:00">
+                2016-11-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h3 id="烦人的乱码"><a href="#烦人的乱码" class="headerlink" title="烦人的乱码"></a>烦人的乱码</h3><p>在Windows下显示其他国家的语言出现乱码已经不是一件新鲜的事情了。多语言支持难道就这么差劲吗？来，我们一步一步解决。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="烦人的乱码"><a href="#烦人的乱码" class="headerlink" title="烦人的乱码"></a>烦人的乱码</h3><p>在Windows下显示其他国家的语言出现乱码已经不是一件新鲜的事情了。多语言支持难道就这么差劲吗？来，我们一步一步解决。</p>
 <h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><ul>
 <li>打开控制面板，选择“区域和语言设置”（Clock, Language, Region）</li>
 </ul>
@@ -893,64 +1387,125 @@ else:
 <li>漫长的下载等待＋重启， 新的语言就可以正常显示了。</li>
 </ul>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Windows/">Windows</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/故障/">故障</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Kip-Irvine-Developing-Environment-Setup" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/11/20/Kip-Irvine-Developing-Environment-Setup/" class="article-date">
-      <time datetime="2016-11-21T07:33:37.000Z" itemprop="datePublished">2016-11-20</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/11/20/Kip-Irvine-Developing-Environment-Setup/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/20/Kip-Irvine-Developing-Environment-Setup/">Kip Irvine Developing Environment Setup</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/11/20/Kip-Irvine-Developing-Environment-Setup/" itemprop="url">Kip Irvine Developing Environment Setup</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-20T23:33:37-08:00">
+                2016-11-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>基于Assembly 的复杂性和死板性，配置Assembly的编程环境也充满了困难。这篇文章针对这本书：Assembly Language For x86 Processors 7th Edition(by Kip Irvine)。做出一些列的配置环境教程，简化大家的配置方法。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>基于Assembly 的复杂性和死板性，配置Assembly的编程环境也充满了困难。这篇文章针对这本书：Assembly Language For x86 Processors 7th Edition(by Kip Irvine)。做出一些列的配置环境教程，简化大家的配置方法。</p>
 <p><img src="https://images-na.ssl-images-amazon.com/images/I/51MPP7tSICL._SX381_BO1,204,203,200_.jpg" alt="Book picture"><br>这个是这本书的封面 购买地址：<a href="https://www.amazon.com/Assembly-Language-x86-Processors-7th/dp/0133769402" target="_blank" rel="external">https://www.amazon.com/Assembly-Language-x86-Processors-7th/dp/0133769402</a></p>
 <h2 id="教程视频"><a href="#教程视频" class="headerlink" title="教程视频"></a>教程视频</h2><p>这里有个很笼统的教程视频，英文好的同学可以直接观看，观看好的话基本上是没什么设置问题了。<br><div class="video-container"><iframe src="//www.youtube.com/embed/9e1ER2o83N0" frameborder="0" allowfullscreen></iframe></div></p>
 <h2 id="相关资料"><a href="#相关资料" class="headerlink" title="相关资料"></a>相关资料</h2><p>对于Kip Irvine 的资料不可以自己编译，所有所有的环境文件都需要在网站上下载下来这里是网址：</p>
@@ -962,64 +1517,125 @@ else:
 <li>由于我们只讨论32 位的Assembly程序所以一切都以32位版本的为准！<br>Code文件的安装包（为了防止以后采用路径有误，必须安装在C:/Irvine）：<br><a href="http://kipirvine.com/asm/examples/Irvine_7th_Edition.msi" target="_blank" rel="external">http://kipirvine.com/asm/examples/Irvine_7th_Edition.msi</a></li>
 </ul>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Assembly/">Assembly</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Environment/">Environment</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Audi-B6-A4-Fault-Code-故障代码待维修" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/11/16/Audi-B6-A4-Fault-Code-故障代码待维修/" class="article-date">
-      <time datetime="2016-11-17T02:30:10.000Z" itemprop="datePublished">2016-11-16</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/11/16/Audi-B6-A4-Fault-Code-故障代码待维修/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/11/16/Audi-B6-A4-Fault-Code-故障代码待维修/">Audi B6 A4 Fault Code 故障代码待维修</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/11/16/Audi-B6-A4-Fault-Code-故障代码待维修/" itemprop="url">Audi B6 A4 Fault Code 故障代码待维修</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-11-16T18:30:10-08:00">
+                2016-11-16
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>星期二,08,11月,2016,23:35:07<br>VAS-5053 版本: Release 607.2-UD<br>底盘类型: 8E - Audi A4 B6/B7<br>扫描: 01 02 03 08 09 0F 11 15 16 17 18 36 37 45 46 55 56 57 65 67<br>          69 75 76 77</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>星期二,08,11月,2016,23:35:07<br>VAS-5053 版本: Release 607.2-UD<br>底盘类型: 8E - Audi A4 B6/B7<br>扫描: 01 02 03 08 09 0F 11 15 16 17 18 36 37 45 46 55 56 57 65 67<br>          69 75 76 77</p>
 <h2 id="汽车识别编码-WAULC68E05A109788"><a href="#汽车识别编码-WAULC68E05A109788" class="headerlink" title="汽车识别编码: WAULC68E05A109788"></a>汽车识别编码: WAULC68E05A109788</h2><p>地址 01: 发动机<br>   组件号 SW: 8E0 909 518 BC    HW: 8E0 909 018 A<br>   组件: 1.8L R4/5VT     G   0020<br>   代码: 0016751<br>   服务站号 #: WSC 06335</p>
 <p>未找到故障码.<br>就绪状态: 0000 0000</p>
 <hr>
@@ -1057,153 +1673,328 @@ else:
 <p>地址 56: 收音机<br>   组件号: 8E0 035 195 H<br>   组件: symphony II PM6    0410<br>   代码: 01201<br>   服务站号 #: WSC 91392</p>
 <p>2故障码已找到:<br>00858 -  连接: 收音机中频输出与天线放大器<br>            29-10 -  对地短路 - 间歇<br>00858 -  连接: 收音机中频输出与天线放大器<br>            36-00 -  开路</p>
 <h2 id="结束-————————————————————————————————–"><a href="#结束-————————————————————————————————–" class="headerlink" title="结束   ————————————————————————————————–"></a>结束   ————————————————————————————————–</h2>
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
       
 
       
       
-      <div class="clearfix"></div>
-    </div>
-    
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
   
   
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
+  </article>
+
+
+    
+  </section>
+
   
-</div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                &copy; 2018 Xia Hua
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
-            </div>
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
         </div>
         
-            <div class="visit">
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Xia Hua</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">35</span>
+                  <span class="site-state-item-name">Artikel</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
                 
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" >到访数: 
-                            <span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
+                  <span class="site-state-item-count">47</span>
+                  <span class="site-state-item-name">Tags</span>
                 
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
                 
-                    <span>, </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit">本页阅读量: 
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
+                  <span class="links-of-author-item">
+                    <a href="tonyxiahua" target="_blank" title="github">
+                      
+                        <i class="fa fa-fw fa-globe"></i>github</a>
+                  </span>
                 
             </div>
+          
+
+          
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+                <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+              </a>
+            </div>
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
         
-    </div>
-</footer>
+      </div>
+    </main>
 
-    </div>
-    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-<script src="/js/main.js"></script>
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xia Hua</span>
 
-    <script>
-        $(document).ready(function() {
-            var backgroundnum = 24;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
-            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-        })
-    </script>
-
-
-
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
-</script>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-<div class="scroll" id="scroll">
-    <a href="#"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+  
 </div>
-<script>
-    $(document).ready(function() {
-        if ($("#comments").length < 1) {
-            $("#scroll > a:nth-child(2)").hide();
-        };
-    })
-</script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
 
-  <script language="javascript">
-    $(function() {
-        $("a[title]").each(function() {
-            var a = $(this);
-            var title = a.attr('title');
-            if (title == undefined || title == "") return;
-            a.data('title', title).removeAttr('title').hover(
+  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
-            function() {
-                var offset = a.offset();
-                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
-                    top: offset.top - a.outerHeight() - 15,
-                    left: offset.left + a.outerWidth()/2 + 1
-                }).fadeIn(function() {
-                    var pop = $(this);
-                    setTimeout(function() {
-                        pop.remove();
-                    }, pop.text().length * 800);
-                });
-            }, function() {
-                $("#anchortitlecontainer").remove();
-            });
-        });
-    });
-</script>
 
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>

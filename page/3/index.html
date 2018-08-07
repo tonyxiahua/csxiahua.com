@@ -1,11 +1,85 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
+
+
+
   
-  <title>Xia Hua&#39;s Tech Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+
+
+<html class="theme-next muse use-motion" lang="zh_CH">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
+
+<meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Xia Hua's Tech Blog">
 <meta property="og:url" content="https://csxiahua.com/page/3/index.html">
@@ -14,296 +88,342 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Xia Hua's Tech Blog">
 <meta name="twitter:description">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://csxiahua.com/page/3/"/>
+
+
+
+
+
+  <title>Xia Hua's Tech Blog</title>
   
-    <link rel="alternative" href="/atom.xml" title="Xia Hua&#39;s Tech Blog" type="application/atom+xml">
-  
-  
-    <link rel="icon" href="/img/favicon.png">
-  
-  
-      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
-  
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  
-    
-    
-  
-  
-      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
-  
-  <!-- 加载特效 -->
-    <script src="/js/pace.js"></script>
-    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
-  <script>
-      var yiliaConfig = {
-          rootUrl: '/',
-          fancybox: true,
-          animate: true,
-          isHome: true,
-          isPost: false,
-          isArchive: false,
-          isTag: false,
-          isCategory: false,
-          open_in_new: true
-      }
-  </script>
+
+
+
+
+
+
+
+
 </head>
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-    <header id="header" class="inner">
-        <a href="/" class="profilepic">
-            
-            <img lazy-src="/img/favicon.jpg" class="js-avatar">
-            
-        </a>
 
-        <hgroup>
-          <h1 class="header-author"><a href="/" title="Hi Mate">Xia Hua</a></h1>
-        </hgroup>
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh_CH">
 
-        
-        <p class="header-subtitle">Elohim, Essaim. Elohim, Essaim. I implore you</p>
-        
-        
-        
-            <div id="switch-btn" class="switch-btn">
-                <div class="icon">
-                    <div class="icon-ctn">
-                        <div class="icon-wrap icon-house" data-idx="0">
-                            <div class="birdhouse"></div>
-                            <div class="birdhouse_holes"></div>
-                        </div>
-                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
-                            <div class="ribbon"></div>
-                        </div>
-                        
-                        <div class="icon-wrap icon-link hide" data-idx="2">
-                            <div class="loopback_l"></div>
-                            <div class="loopback_r"></div>
-                        </div>
-                        
-                        
-                        <div class="icon-wrap icon-me hide" data-idx="3">
-                            <div class="user"></div>
-                            <div class="shoulder"></div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-                <div class="tips-box hide">
-                    <div class="tips-arrow"></div>
-                    <ul class="tips-inner">
-                        <li>菜单</li>
-                        <li>标签</li>
-                        
-                        <li>友情链接</li>
-                        
-                        
-                        <li>关于我</li>
-                        
-                    </ul>
-                </div>
-            </div>
-        
+  
+  
+    
+  
 
-        <div id="switch-area" class="switch-area">
-            <div class="switch-wrap">
-                <section class="switch-part switch-part1">
-                    <nav class="header-menu">
-                        <ul>
-                        
-                            <li><a href="/#">Index</a></li>
-                        
-                            <li><a href="/works">Works</a></li>
-                        
-                            <li><a href="/about">About</a></li>
-                        
-                        </ul>
-                    </nav>
-                    <nav class="header-nav">
-                        <ul class="social">
-                            
-                                <a class="fl mail" target="_blank" href="mailto:contact@csxiahua.com" title="mail">mail</a>
-                            
-                                <a class="fl github" target="_blank" href="https://github.com/tonyxiahua" title="github">github</a>
-                            
-                                <a class="fl linkedin" target="_blank" href="https://www.linkedin.com/in/hua-xia-13a71711b/" title="linkedin">linkedin</a>
-                            
-                        </ul>
-                    </nav>
-                </section>
-                
-                
-                <section class="switch-part switch-part2">
-                    <div class="widget tagcloud" id="js-tagcloud">
-                        <a href="/tags/3hBWpYhdsX5C/" style="font-size: 10px;">3hBWpYhdsX5C</a> <a href="/tags/A4/" style="font-size: 20px;">A4</a> <a href="/tags/Adobe/" style="font-size: 10px;">Adobe</a> <a href="/tags/Arduino/" style="font-size: 10px;">Arduino</a> <a href="/tags/Assembly/" style="font-size: 10px;">Assembly</a> <a href="/tags/Audi/" style="font-size: 20px;">Audi</a> <a href="/tags/Audition/" style="font-size: 10px;">Audition</a> <a href="/tags/B6/" style="font-size: 10px;">B6</a> <a href="/tags/Bilibili/" style="font-size: 10px;">Bilibili</a> <a href="/tags/Break/" style="font-size: 10px;">Break</a> <a href="/tags/C/" style="font-size: 15px;">C++</a> <a href="/tags/Chrome/" style="font-size: 10px;">Chrome</a> <a href="/tags/Chromebook/" style="font-size: 10px;">Chromebook</a> <a href="/tags/ChromenOS/" style="font-size: 10px;">ChromenOS</a> <a href="/tags/Environment/" style="font-size: 10px;">Environment</a> <a href="/tags/Linux/" style="font-size: 15px;">Linux</a> <a href="/tags/MacOS/" style="font-size: 10px;">MacOS</a> <a href="/tags/Pixel/" style="font-size: 15px;">Pixel</a> <a href="/tags/Telegram/" style="font-size: 10px;">Telegram</a> <a href="/tags/Wi-Fi/" style="font-size: 15px;">Wi-Fi</a> <a href="/tags/Windows/" style="font-size: 10px;">Windows</a> <a href="/tags/codes/" style="font-size: 10px;">codes</a> <a href="/tags/个人/" style="font-size: 10px;">个人</a> <a href="/tags/人生/" style="font-size: 10px;">人生</a> <a href="/tags/保养/" style="font-size: 10px;">保养</a> <a href="/tags/充电器/" style="font-size: 10px;">充电器</a> <a href="/tags/公众号/" style="font-size: 10px;">公众号</a> <a href="/tags/单片机/" style="font-size: 15px;">单片机</a> <a href="/tags/后期处理/" style="font-size: 10px;">后期处理</a> <a href="/tags/喷漆/" style="font-size: 10px;">喷漆</a> <a href="/tags/学习/" style="font-size: 10px;">学习</a> <a href="/tags/弹幕/" style="font-size: 10px;">弹幕</a> <a href="/tags/技术/" style="font-size: 10px;">技术</a> <a href="/tags/故障/" style="font-size: 10px;">故障</a> <a href="/tags/教程/" style="font-size: 10px;">教程</a> <a href="/tags/无线/" style="font-size: 10px;">无线</a> <a href="/tags/无线网络/" style="font-size: 10px;">无线网络</a> <a href="/tags/树莓派/" style="font-size: 15px;">树莓派</a> <a href="/tags/汽车研究/" style="font-size: 10px;">汽车研究</a> <a href="/tags/测试/" style="font-size: 20px;">测试</a> <a href="/tags/生活/" style="font-size: 15px;">生活</a> <a href="/tags/留学/" style="font-size: 10px;">留学</a> <a href="/tags/直播/" style="font-size: 10px;">直播</a> <a href="/tags/研究/" style="font-size: 10px;">研究</a> <a href="/tags/破解/" style="font-size: 10px;">破解</a> <a href="/tags/科技/" style="font-size: 10px;">科技</a> <a href="/tags/网络/" style="font-size: 15px;">网络</a>
-                    </div>
-                </section>
-                
-                
-                
-                <section class="switch-part switch-part3">
-                    <div id="js-friends">
-                    
-                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://tonyxiahua.github.io/">name</a>
-                    
-                    </div>
-                </section>
-                
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
 
-                
-                
-                <section class="switch-part switch-part4">
-                
-                    <div id="js-aboutme">blank,blank</div>
-                </section>
-                
-            </div>
-        </div>
-    </header>                
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Xia Hua's Tech Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">Elohim, Essaim. Elohim, Essaim. I implore you</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
-    </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-      <div class="overlay">
-          <div class="slider-trigger"></div>
-          <h1 class="header-author js-mobile-header hide"><a href="/" title="Me">Xia Hua</a></h1>
-      </div>
-    <div class="intrude-less">
-        <header id="header" class="inner">
-            <a href="/" class="profilepic">
-                
-                    <img lazy-src="/img/favicon.jpg" class="js-avatar">
-                
-            </a>
-            <hgroup>
-              <h1 class="header-author"><a href="/" title="Me">Xia Hua</a></h1>
-            </hgroup>
-            
-            <p class="header-subtitle">Elohim, Essaim. Elohim, Essaim. I implore you</p>
-            
-            <nav class="header-menu">
-                <ul>
-                
-                    <li><a href="/#">Index</a></li>
-                
-                    <li><a href="/works">Works</a></li>
-                
-                    <li><a href="/about">About</a></li>
-                
-                <div class="clearfix"></div>
-                </ul>
-            </nav>
-            <nav class="header-nav">
-                <div class="social">
-                    
-                        <a class="mail" target="_blank" href="mailto:contact@csxiahua.com" title="mail">mail</a>
-                    
-                        <a class="github" target="_blank" href="https://github.com/tonyxiahua" title="github">github</a>
-                    
-                        <a class="linkedin" target="_blank" href="https://www.linkedin.com/in/hua-xia-13a71711b/" title="linkedin">linkedin</a>
-                    
-                </div>
-            </nav>
-        </header>                
-    </div>
-</nav>
-      <div class="body-wrap">
-  
-    <article id="post-Arduino-Basic-Connections" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/10/26/Arduino-Basic-Connections/" class="article-date">
-      <time datetime="2016-10-26T14:04:51.000Z" itemprop="datePublished">2016-10-26</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/26/Arduino-Basic-Connections/">Arduino Basic Connections</a>
-    </h1>
+
+<nav class="site-nav">
   
 
-      </header>
+  
+    <ul id="menu" class="menu">
       
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
     
-    <div class="article-entry" itemprop="articleBody">
       
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/26/Arduino-Basic-Connections/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/26/Arduino-Basic-Connections/" itemprop="url">Arduino Basic Connections</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-26T07:04:51-07:00">
+                2016-10-26
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>这里分享一下来自www.pighixxx.com 的ABC (Arduino Basic Coneections)<br>希望有用</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>这里分享一下来自www.pighixxx.com 的ABC (Arduino Basic Coneections)<br>希望有用</p>
 <p><img src="/images/arduino_basic_connections/1.jpg" alt="1"><br><img src="/images/arduino_basic_connections/2.jpg" alt="2"><br><img src="/images/arduino_basic_connections/3.jpg" alt="3"><br><img src="/images/arduino_basic_connections/4.jpg" alt="4"><br><img src="/images/arduino_basic_connections/5.jpg" alt="5"><br><img src="/images/arduino_basic_connections/6.jpg" alt="6"><br><img src="/images/arduino_basic_connections/7.jpg" alt="7"><br><img src="/images/arduino_basic_connections/8.jpg" alt="8"><br><img src="/images/arduino_basic_connections/9.jpg" alt="9"><br><img src="/images/arduino_basic_connections/10.jpg" alt="10"><br><img src="/images/arduino_basic_connections/11.jpg" alt="11"><br><img src="/images/arduino_basic_connections/12.jpg" alt="12"><br><img src="/images/arduino_basic_connections/13.jpg" alt="13"><br><img src="/images/arduino_basic_connections/14.jpg" alt="14"><br><img src="/images/arduino_basic_connections/15.jpg" alt="15"><br><img src="/images/arduino_basic_connections/16.jpg" alt="16"><br><img src="/images/arduino_basic_connections/17.jpg" alt="17"><br><img src="/images/arduino_basic_connections/18.jpg" alt="18"><br><img src="/images/arduino_basic_connections/19.jpg" alt="19"><br><img src="/images/arduino_basic_connections/20.jpg" alt="20"></p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Arduino/">Arduino</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/单片机/">单片机</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Audi-B6-A4-Spary-car-charger" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/25/Audi-B6-A4-Spary-car-charger/" class="article-date">
-      <time datetime="2016-10-25T10:40:58.000Z" itemprop="datePublished">2016-10-25</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/25/Audi-B6-A4-Spary-car-charger/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/25/Audi-B6-A4-Spary-car-charger/">给塑料充电器喷漆</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/25/Audi-B6-A4-Spary-car-charger/" itemprop="url">给塑料充电器喷漆</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-25T03:40:58-07:00">
+                2016-10-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>或许你在发愁没有找到合适颜色的商品，或许你在烦恼不同颜色的不搭调。没有问题！现在你只需要一个喷漆，就能够买上转换你的心情！</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>或许你在发愁没有找到合适颜色的商品，或许你在烦恼不同颜色的不搭调。没有问题！现在你只需要一个喷漆，就能够买上转换你的心情！</p>
 <p>其实在我上个月的时候就开始研究喷漆了，原因是有一辆古老的变速单车，而他的主人又舍不得丢掉它，纠结之下就开始了我的改装单车计划。但是到了现在这个单车我还只是停留在拆卸状态，如果遇到周末的话就可以进行了。但是平时呢，需要学习一下如何提升自己的喷漆技巧，为了让上色更加沉着，还是需要 100 小时的基本训练，1000小时的熟练之路。</p>
 <p>现在手头上有一个红色的充电器插头，一看下去我十分不满意，这个红色看上去太艳了，和我车内黑色的内饰不搭调，蓝色指示灯也就算了，但是这个红色实在是没法忍受……于是一气之下就开喷了。</p>
 <p>这个是Amazon 当时的购买图片：<br><img src="/images/spary_carcharger/1.jpg" alt="Vinsic® USB Type C Car Charger "><br><img src="/images/spary_carcharger/2.jpg" alt="Vinsic® USB Type C Car Charger "></p>
@@ -316,64 +436,125 @@
 <p><img src="/images/spary_carcharger/8.jpg" alt="fullview3"><br><img src="/images/spary_carcharger/9.jpg" alt="fullview4"></p>
 <p>Thanks.</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/充电器/">充电器</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/喷漆/">喷漆</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/汽车研究/">汽车研究</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-CIS-22C-Labs" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/24/CIS-22C-Labs/" class="article-date">
-      <time datetime="2016-10-24T15:50:58.000Z" itemprop="datePublished">2016-10-24</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/24/CIS-22C-Labs/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/24/CIS-22C-Labs/">CIS 22C Labs</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/24/CIS-22C-Labs/" itemprop="url">CIS 22C Labs</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-24T08:50:58-07:00">
+                2016-10-24
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>Here is the code page for CIS 22C Labs Delia’s Class.<br>Fall 2016 De Anza College.<br>Recommend using high resoultion devices to view this page. Thanks.<br>这是一个我课程代码的页面，如果发现有任何错误请告知我，谢谢。<br>由于主题排版的问题，在便携设备上可能出现无法显示引索条，建议使用电脑访问。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Here is the code page for CIS 22C Labs Delia’s Class.<br>Fall 2016 De Anza College.<br>Recommend using high resoultion devices to view this page. Thanks.<br>这是一个我课程代码的页面，如果发现有任何错误请告知我，谢谢。<br>由于主题排版的问题，在便携设备上可能出现无法显示引索条，建议使用电脑访问。</p>
 <h2 id="Lab-1"><a href="#Lab-1" class="headerlink" title="Lab-1"></a>Lab-1</h2><h3 id="City-cpp"><a href="#City-cpp" class="headerlink" title="City.cpp"></a>City.cpp</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br></pre></td><td class="code"><pre><span class="line">/*****************************************************************************</span><br><span class="line">                                CIS 22C</span><br><span class="line">                             Linked Lists</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">//Xia Hua</span><br><span class="line">//CIS 22C De Anza College Fall 2016</span><br><span class="line">//Date Oct 4th 2016</span><br><span class="line"></span><br><span class="line">#include &lt;iostream&gt;</span><br><span class="line">#include &lt;fstream&gt;</span><br><span class="line">#include &lt;iomanip&gt;</span><br><span class="line">#include &lt;cstdio&gt;</span><br><span class="line">#include &quot;CityList.h&quot;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">void intro();</span><br><span class="line">void readCities(CityList &amp;list, const char inputFileName[]);</span><br><span class="line">void printCities(CityList &amp;list);</span><br><span class="line">void searchCities(CityList &amp;list);</span><br><span class="line">void deleteCities(CityList &amp;list);</span><br><span class="line">void printEndMsg();</span><br><span class="line"></span><br><span class="line">/*****************************************************************************</span><br><span class="line">                                Main Function</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    const char inputFileName[] = &quot;cities.txt&quot;;// open</span><br><span class="line">    CityList list;</span><br><span class="line">    intro();</span><br><span class="line">    readCities(list, inputFileName);</span><br><span class="line">    printCities(list);</span><br><span class="line">    </span><br><span class="line">    //Finish Loading</span><br><span class="line">    </span><br><span class="line">    //Display now special age cities.</span><br><span class="line">    list.youngestCity();</span><br><span class="line">    list.oldestCity();</span><br><span class="line">    </span><br><span class="line">    //1.search****************************</span><br><span class="line">    searchCities(list);</span><br><span class="line">    </span><br><span class="line">    //2.delete****************************</span><br><span class="line">    deleteCities(list);</span><br><span class="line">    </span><br><span class="line">    //3.print*****************************</span><br><span class="line">    printCities(list);</span><br><span class="line">    </span><br><span class="line">    //updated cities list</span><br><span class="line">    </span><br><span class="line">    list.youngestCity();</span><br><span class="line">    list.oldestCity();</span><br><span class="line">    </span><br><span class="line">    </span><br><span class="line">    printEndMsg();</span><br><span class="line">    //exit</span><br><span class="line">    system(&quot;pause&quot;);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*****************************************************************************</span><br><span class="line"> Display a short statement about the purpose of the program</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">void intro()</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;_________________________________________\n&quot;;</span><br><span class="line">    cout &lt;&lt; &quot;Build and process a Linked List of Cities\n\n&quot;;</span><br><span class="line">    cout &lt;&lt; &quot;Author: Xia Hua       Time: Oct.4.2016&quot;&lt;&lt;endl;</span><br><span class="line">    cout &lt;&lt; &quot;_________________________________________\n\n&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/********************************************************************************</span><br><span class="line"> Read data about cities from a file and build a sorted linked list</span><br><span class="line"> The list is sorted by city name.</span><br><span class="line"> </span><br><span class="line"> Input Parameter: inputFileName</span><br><span class="line"> Output Parameter: list</span><br><span class="line"> Return Value : none</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">void readCities(CityList &amp;list, const char inputFileName[])</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;Reading City data from &quot; &lt;&lt; inputFileName &lt;&lt; endl&lt;&lt;&quot; . . .  . . .&quot;&lt;&lt;endl;</span><br><span class="line">    City dataIn;</span><br><span class="line">    ifstream infile;</span><br><span class="line">    infile.open(inputFileName);</span><br><span class="line">    string stateName;</span><br><span class="line">    int number;</span><br><span class="line">    string cityName;</span><br><span class="line">    </span><br><span class="line">    while(!infile)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;Error opening &quot; &lt;&lt; inputFileName &lt;&lt; &quot;for reading\n&quot;;</span><br><span class="line">        exit(111);</span><br><span class="line">    &#125;</span><br><span class="line">    while(infile &gt;&gt; stateName)</span><br><span class="line">    &#123;</span><br><span class="line">        dataIn.setState(stateName);</span><br><span class="line">        infile&gt;&gt;number;</span><br><span class="line">        dataIn.setYear(number);</span><br><span class="line">        infile.ignore();</span><br><span class="line">        getline(infile,cityName, &apos;\n&apos;);</span><br><span class="line">        dataIn.setCity(cityName);</span><br><span class="line">        list.insertNode(dataIn);</span><br><span class="line">    &#125;</span><br><span class="line">    infile.close();</span><br><span class="line">    </span><br><span class="line">    cout &lt;&lt; &quot;Done reading!&quot;&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*****************************************************************************</span><br><span class="line"> Display the city list</span><br><span class="line"> Input Parameter: list</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">void printCities(CityList &amp;list)</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;\n      Print City Data&quot;&lt;&lt;endl;</span><br><span class="line">    cout &lt;&lt; &quot;______________________________&quot;&lt;&lt;endl&lt;&lt;endl;</span><br><span class="line">    </span><br><span class="line">    cout &lt;&lt; left &lt;&lt; setw(10) &lt;&lt; &quot;State&quot; &lt;&lt; setw(10) &lt;&lt; &quot;Year&quot; &lt;&lt; setw(20) &lt;&lt; &quot;City&quot; &lt;&lt; endl;</span><br><span class="line">    cout &lt;&lt; setw(10) &lt;&lt; &quot;-----&quot; &lt;&lt; setw(10) &lt;&lt; &quot;-----&quot; &lt;&lt; setw(20) &lt;&lt; &quot;----------&quot; &lt;&lt; endl;</span><br><span class="line">    list.displayList();</span><br><span class="line">    cout &lt;&lt; &quot;__________________________________\n&quot;;</span><br><span class="line">    cout &lt;&lt; &quot;There are &quot;&lt;&lt; list.countCity() &lt;&lt;&quot; cities in this table!&quot;&lt;&lt;endl;</span><br><span class="line">    cout &lt;&lt; &quot;__________________________________\n&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">/*****************************************************************************</span><br><span class="line"> Search manager: search the city list until the user enters QUIT</span><br><span class="line"> Input Parameter: list</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">void searchCities(CityList &amp;list)</span><br><span class="line">&#123;</span><br><span class="line">    string targetCity;</span><br><span class="line">    </span><br><span class="line">    cout &lt;&lt; &quot;\n2. Search&quot;&lt;&lt;endl;</span><br><span class="line">    cout &lt;&lt;   &quot;______&quot;&lt;&lt;endl;</span><br><span class="line">    </span><br><span class="line">    while(targetCity!=&quot;quit&quot;)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;\nEnter the city for search (quit for stop searching) : &quot;;</span><br><span class="line">        getline(cin, targetCity);</span><br><span class="line">        </span><br><span class="line">        if(targetCity!=&quot;quit&quot;)</span><br><span class="line">        &#123;</span><br><span class="line">            list.searchList(targetCity);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; &quot;___________________&quot;&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*****************************************************************************</span><br><span class="line"> Delete manager: delete cities from the list until the user enters QUIT</span><br><span class="line"> Input Parameter: list</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">void deleteCities(CityList &amp;list)</span><br><span class="line">&#123;</span><br><span class="line">    string targetCity;</span><br><span class="line">    </span><br><span class="line">    cout &lt;&lt; &quot;\n3. Delete&quot;&lt;&lt;endl;</span><br><span class="line">    cout &lt;&lt; &quot;_______&quot;&lt;&lt; endl;</span><br><span class="line">    </span><br><span class="line">    while(targetCity!=&quot;quit&quot;)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; endl &lt;&lt; &quot;Enter the city for delete (quit for stop searching) : &quot;;</span><br><span class="line">        getline(cin, targetCity);</span><br><span class="line">        </span><br><span class="line">        if(targetCity!=&quot;quit&quot;)</span><br><span class="line">        &#123;</span><br><span class="line">            list.deleteNode(targetCity);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; &quot;___________________&quot;&lt;&lt;endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/*****************************************************************************</span><br><span class="line"> Display an &quot;End of the program&quot; message</span><br><span class="line"> *****************************************************************************/</span><br><span class="line"></span><br><span class="line">void printEndMsg()</span><br><span class="line">&#123;</span><br><span class="line">    cout &lt;&lt; &quot;\n\n___________________________________________________\n\n&quot;;</span><br><span class="line">    cout &lt;&lt; &quot; This is the End of the Sorted Linked List program!\n&quot;;</span><br><span class="line">    cout &lt;&lt; &quot; Thanks for using!!!&quot;&lt;&lt;endl;</span><br><span class="line">    cout &lt;&lt; &quot;___________________________________________________\n&quot;;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/***********</span><br><span class="line"> OUTPUT</span><br><span class="line"> ************/</span><br><span class="line">/*</span><br><span class="line">_________________________________________</span><br><span class="line">Build and process a Linked List of Cities</span><br><span class="line"></span><br><span class="line">Author: Xia Hua       Time: Oct.4.2016</span><br><span class="line">_________________________________________</span><br><span class="line"></span><br><span class="line">Reading City data from cities.txt</span><br><span class="line">. . .  . . .</span><br><span class="line">Done reading!</span><br><span class="line"></span><br><span class="line">Print City Data</span><br><span class="line">______________________________</span><br><span class="line"></span><br><span class="line">State     Year      City</span><br><span class="line">-----     -----     ----------</span><br><span class="line">MD        1797      Baltimore</span><br><span class="line">MA        1822      Boston</span><br><span class="line">IL        1837      Chicago</span><br><span class="line">OH        1834      Columbus</span><br><span class="line">TX        1856      Dallas</span><br><span class="line">MI        1701      Detroit</span><br><span class="line">TX        1837      Houston</span><br><span class="line">IN        1832      Indianapolis</span><br><span class="line">FL        1822      Jacksonville</span><br><span class="line">CA        1850      Los Angeles</span><br><span class="line">TN        1826      Memphis</span><br><span class="line">WI        1846      Milwaukee</span><br><span class="line">NY        1898      New York</span><br><span class="line">PA        1701      Philadelphia</span><br><span class="line">AZ        1881      Phoenix</span><br><span class="line">TX        1837      San Antonio</span><br><span class="line">CA        1850      San Diego</span><br><span class="line">CA        1850      San Francisco</span><br><span class="line">CA        1850      San Jose</span><br><span class="line">DC        1788      Washington</span><br><span class="line">__________________________________</span><br><span class="line">There are 20 cities in this table!</span><br><span class="line">__________________________________</span><br><span class="line">The youngest city is: New York. Age is :1898</span><br><span class="line">The oldest city is: Detroit. Age is :1701</span><br><span class="line">The another oldest city is: Philadelphia. Age is :1701</span><br><span class="line"></span><br><span class="line">2. Search</span><br><span class="line">______</span><br><span class="line"></span><br><span class="line">Enter the city for search (quit for stop searching) : Columbus</span><br><span class="line"></span><br><span class="line">State     Year      City</span><br><span class="line">-----     -----     ----------</span><br><span class="line">OH        1834      Columbus</span><br><span class="line">Find reslut 1/1</span><br><span class="line"></span><br><span class="line">Enter the city for search (quit for stop searching) : Philadelphia</span><br><span class="line"></span><br><span class="line">State     Year      City</span><br><span class="line">-----     -----     ----------</span><br><span class="line">PA        1701      Philadelphia</span><br><span class="line">Find reslut 1/1</span><br><span class="line"></span><br><span class="line">Enter the city for search (quit for stop searching) : quit</span><br><span class="line">___________________</span><br><span class="line"></span><br><span class="line">3. Delete</span><br><span class="line">_______</span><br><span class="line"></span><br><span class="line">Enter the city for delete (quit for stop searching) : Philadelphia</span><br><span class="line">The city has been deleted.</span><br><span class="line">There are 19 cities in this table!</span><br><span class="line"></span><br><span class="line">Enter the city for delete (quit for stop searching) : New York</span><br><span class="line">&lt;New York  &gt; was not found</span><br><span class="line"></span><br><span class="line">Enter the city for delete (quit for stop searching) : New York</span><br><span class="line">The city has been deleted.</span><br><span class="line">There are 18 cities in this table!</span><br><span class="line"></span><br><span class="line">Enter the city for delete (quit for stop searching) : quit</span><br><span class="line">___________________</span><br><span class="line"></span><br><span class="line">Print City Data</span><br><span class="line">______________________________</span><br><span class="line"></span><br><span class="line">State     Year      City</span><br><span class="line">-----     -----     ----------</span><br><span class="line">MD        1797      Baltimore</span><br><span class="line">MA        1822      Boston</span><br><span class="line">IL        1837      Chicago</span><br><span class="line">OH        1834      Columbus</span><br><span class="line">TX        1856      Dallas</span><br><span class="line">MI        1701      Detroit</span><br><span class="line">TX        1837      Houston</span><br><span class="line">IN        1832      Indianapolis</span><br><span class="line">FL        1822      Jacksonville</span><br><span class="line">CA        1850      Los Angeles</span><br><span class="line">TN        1826      Memphis</span><br><span class="line">WI        1846      Milwaukee</span><br><span class="line">AZ        1881      Phoenix</span><br><span class="line">TX        1837      San Antonio</span><br><span class="line">CA        1850      San Diego</span><br><span class="line">CA        1850      San Francisco</span><br><span class="line">CA        1850      San Jose</span><br><span class="line">DC        1788      Washington</span><br><span class="line">__________________________________</span><br><span class="line">There are 18 cities in this table!</span><br><span class="line">__________________________________</span><br><span class="line">The youngest city is: Phoenix. Age is :1881</span><br><span class="line">The oldest city is: Detroit. Age is :1701</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">____________________________________________</span><br><span class="line"></span><br><span class="line">This is the End of the Sorted Linked List program!</span><br><span class="line">Thanks for using!!!</span><br><span class="line">____________________________________________</span><br><span class="line">Program ended with exit code: 0</span><br><span class="line">*/</span><br></pre></td></tr></table></figure>
 <h3 id="City-h"><a href="#City-h" class="headerlink" title="City.h"></a>City.h</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line">//</span><br><span class="line">//  City.h</span><br><span class="line">//  HW1</span><br><span class="line">//</span><br><span class="line">//  Created by Rednik Tony on 10/3/16.</span><br><span class="line">//  Copyright © 2016 Hua Xia. All rights reserved.</span><br><span class="line">//</span><br><span class="line">//Xia Hua</span><br><span class="line">//CIS 22C De Anza College Fall 2016</span><br><span class="line">//Date Oct 4th 2016</span><br><span class="line">#ifndef City_h</span><br><span class="line">#define City_h</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">//#include &lt;iostream&gt;</span><br><span class="line">using namespace std;</span><br><span class="line">/*********************</span><br><span class="line">City Class</span><br><span class="line"> *******************/</span><br><span class="line">class City</span><br><span class="line">&#123;</span><br><span class="line">private:</span><br><span class="line">    string state;</span><br><span class="line">    int year;</span><br><span class="line">    string city;</span><br><span class="line"></span><br><span class="line">public:</span><br><span class="line">    //GETTER AND SETTER</span><br><span class="line">    </span><br><span class="line">    void setState(string stateName)&#123;</span><br><span class="line">        state=stateName;</span><br><span class="line">    &#125;</span><br><span class="line">    void setYear(int number)&#123;</span><br><span class="line">        year=number;</span><br><span class="line">    &#125;</span><br><span class="line">    void setCity(string cityName)&#123;</span><br><span class="line">        city= cityName;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    string getState()&#123;</span><br><span class="line">        return state;</span><br><span class="line">    &#125;</span><br><span class="line">    int getYear()&#123;</span><br><span class="line">        return year;</span><br><span class="line">    &#125;</span><br><span class="line">    string getCity()&#123;</span><br><span class="line">        return city;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#endif /* City_h */</span><br></pre></td></tr></table></figure>
 <h3 id="CityList-cpp"><a href="#CityList-cpp" class="headerlink" title="CityList.cpp"></a>CityList.cpp</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br></pre></td><td class="code"><pre><span class="line">//Xia Hua</span><br><span class="line">//CIS 22C De Anza College Fall 2016</span><br><span class="line">//Date Oct 4th 2016</span><br><span class="line"></span><br><span class="line">// Implementation file for the CityList class</span><br><span class="line">#include &lt;iostream&gt;  // For cout and NULL</span><br><span class="line">#include &lt;iomanip&gt;</span><br><span class="line">#include &lt;string&gt;</span><br><span class="line">#include &quot;CityList.h&quot;</span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Constructor</span><br><span class="line"> This function allocates an empty node to act as a</span><br><span class="line"> sentinel node: it makes the code shorter and the</span><br><span class="line"> processing of the list faster.</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">CityList::CityList()</span><br><span class="line">&#123;</span><br><span class="line">    head = new ListNode;</span><br><span class="line">    head-&gt;next = NULL;</span><br><span class="line">    head-&gt;data.setYear(0);</span><br><span class="line">    head-&gt;data.setState(&quot;&quot;);</span><br><span class="line">    head-&gt;data.setCity(&quot;&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Display the value stored in each node of</span><br><span class="line"> the linked list</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">void CityList::displayList() const</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *nodePtr = head-&gt;next;</span><br><span class="line">    while (nodePtr)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; setw(10) &lt;&lt; nodePtr-&gt;data.getState();</span><br><span class="line">        cout &lt;&lt; setw(10) &lt;&lt; nodePtr-&gt;data.getYear();</span><br><span class="line">        cout &lt;&lt; setw(20) &lt;&lt; nodePtr-&gt;data.getCity() &lt;&lt; endl;</span><br><span class="line">        nodePtr = nodePtr-&gt;next;//move to the next node</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Calculate and retrun how many cities in the list</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">int CityList::countCity()&#123;</span><br><span class="line">    return counter;&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Insert a new node into a sorted list and</span><br><span class="line"> keeps the list sorted</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">void CityList::insertNode(City dataIn)</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *newNode;</span><br><span class="line">    ListNode *nodePtr = head-&gt;next;</span><br><span class="line">    ListNode *prevNode = head;</span><br><span class="line">    </span><br><span class="line">    // Allocate a new node and store dataIn there.</span><br><span class="line">    newNode = new ListNode;</span><br><span class="line">    newNode-&gt;data = dataIn;</span><br><span class="line">    </span><br><span class="line">    // Skip all nodes whose value is less than num.</span><br><span class="line">    while (nodePtr != NULL &amp;&amp; nodePtr-&gt;data.getCity() &lt; dataIn.getCity())</span><br><span class="line">    &#123;</span><br><span class="line">        prevNode = nodePtr;</span><br><span class="line">        nodePtr = nodePtr-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    // Update links to insert the new node</span><br><span class="line">    prevNode-&gt;next = newNode;</span><br><span class="line">    newNode-&gt;next = nodePtr;</span><br><span class="line">    counter++;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Search for a city in the list</span><br><span class="line"> If found, it prints it.</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">void CityList::searchList(string city) const</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *nodePtr;</span><br><span class="line">    nodePtr = head-&gt;next;</span><br><span class="line">    </span><br><span class="line">    while (nodePtr != NULL &amp;&amp; nodePtr-&gt;data.getCity() != city)</span><br><span class="line">    &#123;</span><br><span class="line">        nodePtr = nodePtr-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    if(nodePtr != NULL &amp;&amp; nodePtr-&gt;data.getCity() == city) // Display the value in this node.</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; endl &lt;&lt; left &lt;&lt; setw(10) &lt;&lt; &quot;State&quot; &lt;&lt; setw(10) &lt;&lt; &quot;Year&quot; &lt;&lt; setw(20) &lt;&lt; &quot;City&quot; &lt;&lt; endl;</span><br><span class="line">        cout &lt;&lt; setw(10) &lt;&lt; &quot;-----&quot; &lt;&lt; setw(10) &lt;&lt; &quot;-----&quot; &lt;&lt; setw(20) &lt;&lt; &quot;----------&quot; &lt;&lt; endl;</span><br><span class="line">        cout &lt;&lt; setw(10) &lt;&lt; nodePtr-&gt;data.getState();</span><br><span class="line">        cout &lt;&lt; setw(10) &lt;&lt; nodePtr-&gt;data.getYear();</span><br><span class="line">        cout &lt;&lt; setw(20) &lt;&lt; nodePtr-&gt;data.getCity() &lt;&lt; endl;</span><br><span class="line">        cout &lt;&lt; &quot;Find reslut 1/1&quot;&lt;&lt;endl;</span><br><span class="line">    &#125;</span><br><span class="line">    else // Display error if there is no result in this node</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;&lt;&quot; &lt;&lt; city &lt;&lt; &quot;&gt;&quot; &lt;&lt; &quot; was not found&quot; &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> /////////////Finding the youngest city///////////</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">void CityList::youngestCity() const</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *nodePtr;</span><br><span class="line">    nodePtr = head-&gt;next;</span><br><span class="line">    int youngestCity = 0;</span><br><span class="line">    string cityName1 = &quot;&quot;;</span><br><span class="line">    string cityName2 = &quot;&quot;;</span><br><span class="line">    while (nodePtr !=NULL &amp;&amp; nodePtr-&gt;data.getYear())</span><br><span class="line">    &#123;</span><br><span class="line">        int pervious = nodePtr-&gt;data.getYear();;</span><br><span class="line">        if (youngestCity &lt; pervious)</span><br><span class="line">        &#123;</span><br><span class="line">            youngestCity = pervious;</span><br><span class="line">            cityName1 = nodePtr-&gt;data.getCity();</span><br><span class="line">        &#125;</span><br><span class="line">        //check if there has any same age cities</span><br><span class="line">        if (youngestCity == pervious)</span><br><span class="line">        &#123;</span><br><span class="line">            youngestCity = pervious;</span><br><span class="line">            cityName2 = nodePtr-&gt;data.getCity();</span><br><span class="line">        &#125;</span><br><span class="line">        nodePtr = nodePtr-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    if (nodePtr !=NULL &amp;&amp; nodePtr-&gt;data.getYear())</span><br><span class="line">    &#123;</span><br><span class="line">        nodePtr -&gt; data.getYear();</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt; &quot;The youngest city is: &quot;&lt;&lt;cityName1&lt;&lt;&quot;. Age is :&quot;&lt;&lt;youngestCity&lt;&lt;endl;</span><br><span class="line">    //There are some cities has same age. So I make double display list.</span><br><span class="line">    if (cityName2 !=cityName1)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;The another youngest city is: &quot;&lt;&lt; cityName2 &lt;&lt; &quot;. Age is :&quot; &lt;&lt; youngestCity &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">/**************************************************</span><br><span class="line"> /////////////Finding the oldest city/////////////</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">void CityList::oldestCity() const</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *nodePtr;</span><br><span class="line">    nodePtr = head-&gt;next;</span><br><span class="line">    int oldestCity = 2016;</span><br><span class="line">    string cityName1 = &quot;&quot;;</span><br><span class="line">    string cityName2 = &quot;&quot;;</span><br><span class="line">    while (nodePtr !=NULL &amp;&amp; nodePtr-&gt;data.getYear())</span><br><span class="line">    &#123;</span><br><span class="line">        int pervious = nodePtr-&gt;data.getYear();</span><br><span class="line">        if (oldestCity &gt; pervious)&#123;</span><br><span class="line">            oldestCity =pervious;</span><br><span class="line">            cityName1 = nodePtr-&gt;data.getCity();</span><br><span class="line">        &#125;</span><br><span class="line">        //check if there has any same age cities</span><br><span class="line">        if (oldestCity == pervious)&#123;</span><br><span class="line">            oldestCity =pervious;</span><br><span class="line">            cityName2 = nodePtr-&gt;data.getCity();</span><br><span class="line">        &#125;</span><br><span class="line">        nodePtr = nodePtr-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    if (nodePtr !=NULL &amp;&amp; nodePtr-&gt;data.getYear())</span><br><span class="line">    &#123;</span><br><span class="line">        nodePtr -&gt; data.getYear();</span><br><span class="line">    &#125;</span><br><span class="line">    cout&lt;&lt; &quot;The oldest city is: &quot;&lt;&lt;cityName1&lt;&lt;&quot;. Age is :&quot;&lt;&lt;oldestCity&lt;&lt;endl;</span><br><span class="line">    //There are some cities has same age. So I make double display list.</span><br><span class="line">    if (cityName2 !=cityName1)</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;The another oldest city is: &quot;&lt;&lt; cityName2 &lt;&lt; &quot;. Age is :&quot; &lt;&lt; oldestCity &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Delete a city from the list (if found)</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">void CityList::deleteNode(string city)</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *nodePtr = head-&gt;next;</span><br><span class="line">    ListNode *prevNode = head;</span><br><span class="line">    while (nodePtr != NULL &amp;&amp; nodePtr-&gt;data.getCity() != city)</span><br><span class="line">    &#123;</span><br><span class="line">        prevNode = nodePtr;</span><br><span class="line">        nodePtr = nodePtr-&gt;next;</span><br><span class="line">    &#125;</span><br><span class="line">    if (nodePtr) // found</span><br><span class="line">    &#123;</span><br><span class="line">        prevNode-&gt;next = nodePtr-&gt;next;</span><br><span class="line">        delete nodePtr;</span><br><span class="line">        cout &lt;&lt; &quot;The city has been deleted.&quot;&lt;&lt;endl;</span><br><span class="line">        counter--;</span><br><span class="line">        cout &lt;&lt; &quot;There are &quot;&lt;&lt;counter &lt;&lt;&quot; cities in this table!&quot;&lt;&lt;endl;</span><br><span class="line">    &#125;</span><br><span class="line">    else</span><br><span class="line">    &#123;</span><br><span class="line">        cout &lt;&lt; &quot;&lt;&quot; &lt;&lt; city &lt;&lt; &quot;&gt;&quot; &lt;&lt; &quot; was not found&quot; &lt;&lt; endl;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line"> Destructor</span><br><span class="line"> This function deletes every node in the list.</span><br><span class="line"> **************************************************/</span><br><span class="line"></span><br><span class="line">CityList::~CityList()</span><br><span class="line">&#123;</span><br><span class="line">    ListNode *nodePtr = head;</span><br><span class="line">    ListNode *nextNode;</span><br><span class="line">    while (nodePtr != NULL)</span><br><span class="line">    &#123;</span><br><span class="line">        nextNode = nodePtr-&gt;next;</span><br><span class="line">        delete nodePtr;</span><br><span class="line">        nodePtr = nextNode;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/**************************************************</span><br><span class="line">                END OF CITYLIST</span><br><span class="line">**************************************************/</span><br></pre></td></tr></table></figure>
@@ -403,64 +584,125 @@
 <h3 id="priorityQueue-h"><a href="#priorityQueue-h" class="headerlink" title="priorityQueue.h"></a>priorityQueue.h</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line">//</span><br><span class="line">//  Customer.h</span><br><span class="line">//  HW5</span><br><span class="line">//</span><br><span class="line">//  Created by Rednik Tony on 12/2/16.</span><br><span class="line">//  Copyright © 2016 Xia Hua. All rights reserved.</span><br><span class="line">//</span><br><span class="line"></span><br><span class="line">#ifndef PRIORITY_QUEUE_H</span><br><span class="line">#define PRIORITY_QUEUE_H</span><br><span class="line">#include &quot;Customer.h&quot;</span><br><span class="line"></span><br><span class="line">class priorityQueue</span><br><span class="line">&#123;</span><br><span class="line">private:</span><br><span class="line">    int count;</span><br><span class="line">    int getLeftChildIndex(int root) &#123; return root * 2 + 1; &#125;;</span><br><span class="line">    int getRightChildIndex(int root) &#123; return root * 2 + 2; &#125;;</span><br><span class="line">    </span><br><span class="line">public:</span><br><span class="line">    //insert and delete</span><br><span class="line">    bool enqueue(Customer c);</span><br><span class="line">    bool dequeue();</span><br><span class="line">    //read direction</span><br><span class="line">    void readHeapUp(int);</span><br><span class="line">    void readHeapDown(int, int);</span><br><span class="line">    //print&amp; checkEmpty</span><br><span class="line">    bool isEmpty() const;</span><br><span class="line">    void print() const;</span><br><span class="line">    //count &amp; output</span><br><span class="line">    void treeGraph(); </span><br><span class="line">    void setCount(int aCount)</span><br><span class="line">    &#123;</span><br><span class="line">        count = aCount;</span><br><span class="line">    &#125;</span><br><span class="line">    //destory queue</span><br><span class="line">    void destruct();</span><br><span class="line">    </span><br><span class="line">    int getCount() const &#123;</span><br><span class="line">        return count;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    //defalt constructor</span><br><span class="line">    priorityQueue()</span><br><span class="line">    &#123;</span><br><span class="line">        count = 0;</span><br><span class="line">    &#125;</span><br><span class="line">    ~priorityQueue()&#123;destruct();&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">#endif</span><br></pre></td></tr></table></figure>
 <h3 id="Customer-h"><a href="#Customer-h" class="headerlink" title="Customer.h"></a>Customer.h</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br></pre></td><td class="code"><pre><span class="line">//</span><br><span class="line">//  Customer.h</span><br><span class="line">//  HW5</span><br><span class="line">//</span><br><span class="line">//  Created by Rednik Tony on 12/2/16.</span><br><span class="line">//  Copyright © 2016 Xia Hua. All rights reserved.</span><br><span class="line">//</span><br><span class="line"></span><br><span class="line">#ifndef Customer_h</span><br><span class="line">#define Customer_h</span><br><span class="line"></span><br><span class="line">#include &lt;string&gt;</span><br><span class="line"></span><br><span class="line">using namespace std;</span><br><span class="line"></span><br><span class="line">class Customer</span><br><span class="line">&#123;</span><br><span class="line">private:</span><br><span class="line">    string name;</span><br><span class="line">    int mileage;</span><br><span class="line">    int years;</span><br><span class="line">    int priority;</span><br><span class="line">    int serialNumber;</span><br><span class="line">    </span><br><span class="line">public:</span><br><span class="line">    Customer()</span><br><span class="line">    &#123;</span><br><span class="line">        name = &quot;&quot;;</span><br><span class="line">        mileage = 0;</span><br><span class="line">        years = 0;</span><br><span class="line">        priority = 0;</span><br><span class="line">        serialNumber = 0;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    // Getter</span><br><span class="line">    string getName()&#123;return name;&#125; const</span><br><span class="line">    int getMileage()&#123;return mileage;&#125; const</span><br><span class="line">    int getYears()&#123;return years;&#125; const</span><br><span class="line">    int getSerialNumber()&#123;return serialNumber;&#125; const</span><br><span class="line">    int getPriority()&#123;return priority;&#125; const</span><br><span class="line">    </span><br><span class="line">    //=============================================================</span><br><span class="line">    //Setter</span><br><span class="line">    void setName(string aName)</span><br><span class="line">    &#123;</span><br><span class="line">        name = aName;</span><br><span class="line">    &#125;</span><br><span class="line">    void setMileage(int aMileage)</span><br><span class="line">    &#123;</span><br><span class="line">        mileage = aMileage;</span><br><span class="line">    &#125;</span><br><span class="line">    void setYears(int aYears)</span><br><span class="line">    &#123;</span><br><span class="line">        years = aYears;</span><br><span class="line">    &#125;</span><br><span class="line">    void setPriority(int aPriority)</span><br><span class="line">    &#123;</span><br><span class="line">        priority = aPriority;</span><br><span class="line">    &#125;</span><br><span class="line">    void setSerialNumber(int aSerialNumber)</span><br><span class="line">    &#123;</span><br><span class="line">        serialNumber = aSerialNumber;</span><br><span class="line">    &#125;</span><br><span class="line">    // Constructor and Destructor</span><br><span class="line">        ~Customer()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">#endif /* Customer_h */</span><br></pre></td></tr></table></figure>
 <h3 id="overbooked-txt"><a href="#overbooked-txt" class="headerlink" title="overbooked.txt"></a>overbooked.txt</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">5 53000 Robert Hill</span><br><span class="line">3 89000 Amanda Trapp</span><br><span class="line">3 93000 Jonathan Nguyen</span><br><span class="line">5 53000 Tom Martin</span><br><span class="line">1 17000 Mary Lou Gilley</span><br><span class="line">3 89000 Bob Che</span><br><span class="line">7 72000 Warren Rexroad</span><br><span class="line">2 65000 Vincent Gonzales</span><br><span class="line">3 34000 Paula Hung</span><br><span class="line">6 21000 Lou Masson</span><br><span class="line">4 42000 Steve Che</span><br><span class="line">3 89000 Linda Lee</span><br><span class="line">3 63000 Dave Lightfoot</span><br><span class="line">5 53000 Sue Andrews</span><br><span class="line">2 33000 Joanne Brown</span><br><span class="line">7 99000 Paul Ng</span><br><span class="line">5 53000 Steven Chen</span><br><span class="line">2 65000 Vladimir Johnson</span><br><span class="line">7 72000 Peter Edwards</span><br></pre></td></tr></table></figure>
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/C/">C++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/codes/">codes</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-AuditionTakeVoice" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/21/AuditionTakeVoice/" class="article-date">
-      <time datetime="2016-10-22T04:17:02.000Z" itemprop="datePublished">2016-10-21</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/21/AuditionTakeVoice/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/21/AuditionTakeVoice/">Audition 消除伴奏获取人声的办法</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/21/AuditionTakeVoice/" itemprop="url">Audition 消除伴奏获取人声的办法</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-21T21:17:02-07:00">
+                2016-10-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>如果你正在为找不到一首歌曲的人声清唱着急的话，为什么不下载一首完整的歌曲自己划分出来呢</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>如果你正在为找不到一首歌曲的人声清唱着急的话，为什么不下载一首完整的歌曲自己划分出来呢</p>
 <h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><ol>
 <li>使用Audition 打开你的歌曲</li>
 <li>在Effects里面找到 Stero Imagery</li>
@@ -470,124 +712,250 @@
 </ol>
 <h3 id="尾语"><a href="#尾语" class="headerlink" title="尾语"></a>尾语</h3><p>其实是自己稍微记录一下Audition的一些常用功能。希望对大家有用。</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Adobe/">Adobe</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Audition/">Audition</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/后期处理/">后期处理</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-Support" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/18/Support/" class="article-date">
-      <time datetime="2016-10-18T20:04:23.000Z" itemprop="datePublished">2016-10-18</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/18/Support/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/18/Support/">Support 赞助</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/18/Support/" itemprop="url">Support 赞助</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-18T13:04:23-07:00">
+                2016-10-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>正如大家所见，这个网站由于资金和设备的限制导致了博客内容的更新缓慢。<br>若您觉得本博客做的不错，您可以选择赞助本博客。您的支持是Rednik 博客发展的最大的动力。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>正如大家所见，这个网站由于资金和设备的限制导致了博客内容的更新缓慢。<br>若您觉得本博客做的不错，您可以选择赞助本博客。您的支持是Rednik 博客发展的最大的动力。</p>
 <p>本服务区使用的是家里自己静态IP。</p>
 <h5 id="每捐助1美金，就能让服务器多运行48个小时。"><a href="#每捐助1美金，就能让服务器多运行48个小时。" class="headerlink" title="每捐助1美金，就能让服务器多运行48个小时。"></a>每捐助1美金，就能让服务器多运行48个小时。</h5><h4 id="每捐助5美金，就能让服务器域名有效6个月。"><a href="#每捐助5美金，就能让服务器域名有效6个月。" class="headerlink" title="每捐助5美金，就能让服务器域名有效6个月。"></a>每捐助5美金，就能让服务器域名有效6个月。</h4><h3 id="每捐助10美金，就能为服务器提供64G的容量。"><a href="#每捐助10美金，就能为服务器提供64G的容量。" class="headerlink" title="每捐助10美金，就能为服务器提供64G的容量。"></a>每捐助10美金，就能为服务器提供64G的容量。</h3><h2 id="每捐助50美金，-就能有一个新的论坛诞生！"><a href="#每捐助50美金，-就能有一个新的论坛诞生！" class="headerlink" title="每捐助50美金， 就能有一个新的论坛诞生！"></a>每捐助50美金， 就能有一个新的论坛诞生！</h2><p>再小的帮助，也是对我们团队的支持！感谢看到这里的各位！</p>
 <p>–Rednik 博客团队敬上</p>
 <p><a href="https://www.paypal.me/rednik" target="_blank" rel="external">PayPal链接</a></p>
 <p>同时本博客支持微信支付，谢谢大家！<br><img src="/images/support/QR_money.jpg" alt="微信支付"></p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
       
+
+      
+
       
 
       
       
-      <div class="clearfix"></div>
-    </div>
-    
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-国外的中国人" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/18/国外的中国人/" class="article-date">
-      <time datetime="2016-10-18T15:36:17.000Z" itemprop="datePublished">2016-10-18</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/18/国外的中国人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/18/国外的中国人/">国外的中国人</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/18/国外的中国人/" itemprop="url">国外的中国人</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-18T08:36:17-07:00">
+                2016-10-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <blockquote>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <blockquote>
 <p>声明：本篇文章只是rednik.xyz网站的吐槽，与rednik本人无任何关系。</p>
 </blockquote>
 <p>时隔已久，一转眼我就在美国留学了两年了。两年以来，见过了不少人，经历了不少事情，虽然这篇文章算不上什么肺腑之言。但是有些趣事还是值得向大家说说。</p>
@@ -606,124 +974,246 @@
 <p><a href="https://github.com/shadowsocks/shadowsocks-windows/issues/293" target="_blank" rel="external">AppData &amp; temp &amp; 当前目录</a></p>
 <p>暂时写到这里。</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/留学/">留学</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-一个湾区Berkeley新闻频道" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/17/一个湾区Berkeley新闻频道/" class="article-date">
-      <time datetime="2016-10-18T04:21:34.000Z" itemprop="datePublished">2016-10-17</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/17/一个湾区Berkeley新闻频道/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/17/一个湾区Berkeley新闻频道/">一个湾区Berkeley新闻频道 （中文）</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/17/一个湾区Berkeley新闻频道/" itemprop="url">一个湾区Berkeley新闻频道 （中文）</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-17T21:21:34-07:00">
+                2016-10-17
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <p>在写代码之余，几个Bug 一直修不好，和Ben聊一下Telegram， 发现他居然有个挺有趣的Telegram频道， 感兴趣的朋友可以关注一下。<br>该频道的内容是：湾区Berekely中文校园新闻，湾区抗议游行，LGBTQ 的讨论，各种日常＋各位想要了解美国湾区文化的可以订阅。</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>在写代码之余，几个Bug 一直修不好，和Ben聊一下Telegram， 发现他居然有个挺有趣的Telegram频道， 感兴趣的朋友可以关注一下。<br>该频道的内容是：湾区Berekely中文校园新闻，湾区抗议游行，LGBTQ 的讨论，各种日常＋各位想要了解美国湾区文化的可以订阅。</p>
 <p>链接：<br><a href="https://telegram.me/bayareanichijou" target="_blank" rel="external">四只饼干跑得快 - San Francisco Bay Area Nichijou</a></p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Telegram/">Telegram</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/公众号/">公众号</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/测试/">测试</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/生活/">生活</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-life-is-full-of-mystery" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/10/13/life-is-full-of-mystery/" class="article-date">
-      <time datetime="2016-10-13T15:18:22.000Z" itemprop="datePublished">2016-10-13</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/10/13/life-is-full-of-mystery/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/10/13/life-is-full-of-mystery/">明白易懂的人生哲学</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/10/13/life-is-full-of-mystery/" itemprop="url">明白易懂的人生哲学</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-10-13T08:18:22-07:00">
+                2016-10-13
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h3 id="日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理"><a href="#日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理" class="headerlink" title="日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理"></a>日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理</h3><p>本文章所有短句出自《我的青春恋爱物语果然有问题》</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理"><a href="#日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理" class="headerlink" title="日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理"></a>日本动漫里面的一些有关青年人的哲学思考，反复研读，会体会其中的道理</h3><p>本文章所有短句出自《我的青春恋爱物语果然有问题》</p>
 <hr>
 <p>温柔正确的人总是难以生存，<strong>因为这世界既不温柔，也不正确</strong></p>
 <p>——大老师《我的青春恋爱物语果然有问题》</p>
@@ -915,278 +1405,571 @@
 <p>假如。<br>我是说假如。<br>假如人生可以像游戏般返回以前保存的数据，重新在做选择，人生会因此改变吗？<br>答案是否定的。<br>这只是有选择的人们才会拥有的特权，对于从未有过选择的人来说，这种假设毫无意义。<br>所以无需后悔。确切地说，是近乎整个人生都在悔恨。<br>原本就是如此。</p>
 <h3 id="Rednik-后记"><a href="#Rednik-后记" class="headerlink" title="Rednik 后记"></a>Rednik 后记</h3><p>拜读这些短句并且联系到自己的实际生活中，仿佛每次都会明白事情的因果缘由。 如果人生要是如此直白就能理解就真的太好。 我只希望在现在的年纪里，能够看清楚任何事情罢了。</p>
 
-      
+          
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/人生/">人生</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
-
-
-
-
-
-
+    
+      
 
   
-    <article id="post-为树莓派安装Chromeium" class="article article-type-post" itemscope itemprop="blogPost">
+
   
-    <div class="article-meta">
-      <a href="/2016/09/21/为树莓派安装Chromeium/" class="article-date">
-      <time datetime="2016-09-21T13:47:22.000Z" itemprop="datePublished">2016-09-21</time>
-</a>
-    </div>
   
-  <div class="article-inner">
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/09/21/为树莓派安装Chromeium/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
     
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+      <header class="post-header">
+
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/09/21/为树莓派安装Chromeium/">为树莓派安装Chromeium</a>
-    </h1>
-  
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/09/21/为树莓派安装Chromeium/" itemprop="url">为树莓派安装Chromeium</a></h1>
+        
 
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-09-21T06:47:22-07:00">
+                2016-09-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        <h3 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h3><p>关于Debain 环境下的linux相信大家并不陌生，<br>树莓派就是其一。由于原来系统中的自带浏览器并不能满足主流的浏览需求，所以我要们切换到Chromeium</p>
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h3 id="缘由"><a href="#缘由" class="headerlink" title="缘由"></a>缘由</h3><p>关于Debain 环境下的linux相信大家并不陌生，<br>树莓派就是其一。由于原来系统中的自带浏览器并不能满足主流的浏览需求，所以我要们切换到Chromeium</p>
 <h3 id="方法"><a href="#方法" class="headerlink" title="方法"></a>方法</h3><p>只需要把下面代码复制到Terminal 然后运行就可以了<br><code>wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.deb</code><br><code>wget https://dl.dropboxusercontent.com/u/87113035/chromium-browser_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code><br><code>wget https://dl.dropboxusercontent.com/u/87113035/chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code><br><code>sudo dpkg -i chromium-codecs-ffmpeg-extra_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code><br><code>sudo dpkg -i chromium-browser-l10n_45.0.2454.85-0ubuntu0.15.04.1.1181_all.deb chromium-browser_45.0.2454.85-0ubuntu0.15.04.1.1181_armhf.deb</code></p>
 <p>之后在启动菜单里面的Internet里面选择Chromeium就好了</p>
 <h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>关于版本号，这个是算一个比较旧的版本，如果链接失效了或者无法下载，还请各位告知一下我。</p>
 
-      
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/">Linux</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/教程/">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/树莓派/">树莓派</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-突破限制时长使用Wi-Fi" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/09/20/突破限制时长使用Wi-Fi/" class="article-date">
-      <time datetime="2016-09-20T16:38:41.000Z" itemprop="datePublished">2016-09-20</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/09/20/突破限制时长使用Wi-Fi/">突破限制时长使用Wi-Fi</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
           
-        <p>暂时还没有写好……</p>
-
-      
+        
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Wi-Fi/">Wi-Fi</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/无线网络/">无线网络</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/破解/">破解</a></li></ul>
-    </div>
-
-      
-      <div class="clearfix"></div>
-    </div>
     
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
   </div>
   
-</article>
+  
+  
+  </article>
 
 
+    
+      
 
-
-
-
-
-
+  
 
   
   
-    <nav id="page-nav">
-      <a class="extend prev" rel="prev" href="/page/2/">&laquo; Prev</a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/">Next &raquo;</a>
-    </nav>
   
-</div>
-      <footer id="footer">
-    <div class="outer">
-        <div id="footer-info">
-            <div class="footer-left">
-                &copy; 2018 Xia Hua
-            </div>
-            <div class="footer-right">
-                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
-            </div>
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/09/20/突破限制时长使用Wi-Fi/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Xia Hua">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Xia Hua's Tech Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2016/09/20/突破限制时长使用Wi-Fi/" itemprop="url">突破限制时长使用Wi-Fi</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-09-20T09:38:41-07:00">
+                2016-09-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>暂时还没有写好……</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/2/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><a class="page-number" href="/page/2/">2</a><span class="page-number current">3</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/4/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
         </div>
         
-            <div class="visit">
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">Xia Hua</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">35</span>
+                  <span class="site-state-item-name">Artikel</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
                 
-                    <span id="busuanzi_container_site_pv" style='display:none'>
-                        <span id="site-visit" >到访数: 
-                            <span id="busuanzi_value_site_uv"></span>
-                        </span>
-                    </span>
+                  <span class="site-state-item-count">47</span>
+                  <span class="site-state-item-name">Tags</span>
                 
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
                 
-                    <span>, </span>
-                
-                
-                    <span id="busuanzi_container_page_pv" style='display:none'>
-                        <span id="page-visit">本页阅读量: 
-                            <span id="busuanzi_value_page_pv"></span>
-                        </span>
-                    </span>
+                  <span class="links-of-author-item">
+                    <a href="tonyxiahua" target="_blank" title="github">
+                      
+                        <i class="fa fa-fw fa-globe"></i>github</a>
+                  </span>
                 
             </div>
+          
+
+          
+          
+            <div class="cc-license motion-element" itemprop="license">
+              <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" target="_blank">
+                <img src="/images/cc-by-nc-sa.svg" alt="Creative Commons" />
+              </a>
+            </div>
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
         
-    </div>
-</footer>
+      </div>
+    </main>
 
-    </div>
-    <script src="https://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-<script src="/js/main.js"></script>
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Xia Hua</span>
 
-    <script>
-        $(document).ready(function() {
-            var backgroundnum = 24;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
-            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
-        })
-    </script>
-
-
-
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-    }
-});
-
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
-});
-</script>
-
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-<div class="scroll" id="scroll">
-    <a href="#"><i class="fa fa-arrow-up"></i></a>
-    <a href="#comments"><i class="fa fa-comments-o"></i></a>
-    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+  
 </div>
-<script>
-    $(document).ready(function() {
-        if ($("#comments").length < 1) {
-            $("#scroll > a:nth-child(2)").hide();
-        };
-    })
-</script>
 
-<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
-</script>
 
-  <script language="javascript">
-    $(function() {
-        $("a[title]").each(function() {
-            var a = $(this);
-            var title = a.attr('title');
-            if (title == undefined || title == "") return;
-            a.data('title', title).removeAttr('title').hover(
+  <div class="powered-by">Erstellt mit  <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
 
-            function() {
-                var offset = a.offset();
-                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
-                    top: offset.top - a.outerHeight() - 15,
-                    left: offset.left + a.outerWidth()/2 + 1
-                }).fadeIn(function() {
-                    var pop = $(this);
-                    setTimeout(function() {
-                        pop.remove();
-                    }, pop.text().length * 800);
-                });
-            }, function() {
-                $("#anchortitlecontainer").remove();
-            });
-        });
-    });
-</script>
 
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Muse</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
 
   </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
 </body>
 </html>
