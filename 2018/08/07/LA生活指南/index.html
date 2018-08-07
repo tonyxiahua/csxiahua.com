@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="单片机,研究,技术," />
+  <meta name="keywords" content="Hexo, NexT" />
 
 
 
@@ -79,18 +79,14 @@
 
 
 
-<meta name="description" content="##Arduino UNO R3 上手测试 简介Arduino 作为一款偏向硬件控制的单片机，相比Raspberry Pi 3，我当时购入的Starter kit 有很多有趣的控，比如NFC卡，JoyStick，Speaker，一堆我都不知道怎么玩的东西qwq。感觉就是一个很强大的控制模块。经过几天的捣鼓，暂时知道了一些基本的玩法，现在向大家介绍一下。 安装硬件首先我寄来的时候是一堆乱七八糟的零件">
-<meta name="keywords" content="单片机,研究,技术">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Arduino UNO R3 上手测试">
-<meta property="og:url" content="https://csxiahua.com/2016/07/29/Arduino-UNO-R3-上手测试/index.html">
+<meta property="og:title" content="LA生活指南">
+<meta property="og:url" content="https://csxiahua.com/2018/08/07/LA生活指南/index.html">
 <meta property="og:site_name" content="Xia Hua&#39;s Tech Blog">
-<meta property="og:description" content="##Arduino UNO R3 上手测试 简介Arduino 作为一款偏向硬件控制的单片机，相比Raspberry Pi 3，我当时购入的Starter kit 有很多有趣的控，比如NFC卡，JoyStick，Speaker，一堆我都不知道怎么玩的东西qwq。感觉就是一个很强大的控制模块。经过几天的捣鼓，暂时知道了一些基本的玩法，现在向大家介绍一下。 安装硬件首先我寄来的时候是一堆乱七八糟的零件">
 <meta property="og:locale" content="zh_CH">
-<meta property="og:updated_time" content="2016-10-18T12:28:22.000Z">
+<meta property="og:updated_time" content="2018-08-07T20:08:37.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Arduino UNO R3 上手测试">
-<meta name="twitter:description" content="##Arduino UNO R3 上手测试 简介Arduino 作为一款偏向硬件控制的单片机，相比Raspberry Pi 3，我当时购入的Starter kit 有很多有趣的控，比如NFC卡，JoyStick，Speaker，一堆我都不知道怎么玩的东西qwq。感觉就是一个很强大的控制模块。经过几天的捣鼓，暂时知道了一些基本的玩法，现在向大家介绍一下。 安装硬件首先我寄来的时候是一堆乱七八糟的零件">
+<meta name="twitter:title" content="LA生活指南">
 
 
 
@@ -120,13 +116,13 @@
 
 
 
-  <link rel="canonical" href="https://csxiahua.com/2016/07/29/Arduino-UNO-R3-上手测试/"/>
+  <link rel="canonical" href="https://csxiahua.com/2018/08/07/LA生活指南/"/>
 
 
 
 
 
-  <title>Arduino UNO R3 上手测试 | Xia Hua's Tech Blog</title>
+  <title>LA生活指南 | Xia Hua's Tech Blog</title>
   
 
 
@@ -233,7 +229,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2016/07/29/Arduino-UNO-R3-上手测试/">
+    <link itemprop="mainEntityOfPage" href="https://csxiahua.com/2018/08/07/LA生活指南/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xia Hua">
@@ -250,7 +246,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">Arduino UNO R3 上手测试</h2>
+          <h2 class="post-title" itemprop="name headline">LA生活指南</h2>
         
 
         <div class="post-meta">
@@ -262,8 +258,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-07-29T21:59:10-07:00">
-                2016-07-29
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-08-07T13:08:37-07:00">
+                2018-08-07
               </time>
             
 
@@ -281,9 +277,9 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2016/07/29/Arduino-UNO-R3-上手测试/#comments" itemprop="discussionUrl">
+                <a href="/2018/08/07/LA生活指南/#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2016/07/29/Arduino-UNO-R3-上手测试/" itemprop="commentCount"></span>
+                        data-disqus-identifier="2018/08/07/LA生活指南/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -316,27 +312,7 @@
       
 
       
-        <p>##Arduino UNO R3 上手测试</p>
-<h3 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h3><p>Arduino 作为一款偏向硬件控制的单片机，相比Raspberry Pi 3，我当时购入的Starter kit 有很多有趣的控，比如NFC卡，JoyStick，Speaker，一堆我都不知道怎么玩的东西qwq。感觉就是一个很强大的控制模块。经过几天的捣鼓，暂时知道了一些基本的玩法，现在向大家介绍一下。</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><h5 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h5><p>首先我寄来的时候是一堆乱七八糟的零件包，如果是小白的话估计也被弄晕，我之前没有接触过Arduino，当时到手的时候连开机都不知道如何开启…（图）（图）</p>
-<p>当然，我发现了一条USB-B的连接线，这大概就是主板的编程线了，所以顺着这个逻辑很快就找到了主板module ，之后的一天都在捣鼓配件的安装和主板上的接口调查。</p>
-<p>（图片）</p>
-<h3 id="编译"><a href="#编译" class="headerlink" title="编译"></a>编译</h3><h5 id="Macbook-OS-X-EI-Capitan-10-11-5"><a href="#Macbook-OS-X-EI-Capitan-10-11-5" class="headerlink" title="Macbook OS X EI Capitan 10.11.5"></a>Macbook OS X EI Capitan 10.11.5</h5><p>由于我用的是Macbook，驱动方面首先就是没有的，需要自行添加。这里有一个地址，是我在网站上面找到的。我现在会上传到本站下载，同时这是一个本站资源下载测试的项目。</p>
-<p>关于更多的信息，如果你的EI Captain 系统没有关闭csurtil机制，这样驱动是无法安装成功的。</p>
-<blockquote>
-<p>在OSX 10.11下是无法直接安装第三方驱动的，因为苹果的Rootless新机制（几个系统目录连root用户也没有权限读写），现在只需要关了就可以了。</p>
-</blockquote>
-<p>实现方法：</p>
-<ol>
-<li>重启，开机按住Command + R</li>
-<li>进入Mac的RecoveryHD（图形界面）</li>
-<li>用Terminal(终端) 执行： csrutil disable </li>
-<li>重启</li>
-</ol>
-<p>这样一来就可以安装驱动了。</p>
-<h3 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h3><h5 id="IDE"><a href="#IDE" class="headerlink" title="IDE"></a>IDE</h5><p>现在驱动的方面都准备好了，接下来就是对编程语言和硬件适配的练习了。</p>
-<h3 id="第一个Ardunio-程序"><a href="#第一个Ardunio-程序" class="headerlink" title="第一个Ardunio 程序"></a>第一个Ardunio 程序</h3><p>在这里我发现Ardunio 需要很多自己的</p>
-
+        
       
     </div>
     
@@ -385,7 +361,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>Post link:</strong>
-    <a href="https://csxiahua.com/2016/07/29/Arduino-UNO-R3-上手测试/" title="Arduino UNO R3 上手测试">https://csxiahua.com/2016/07/29/Arduino-UNO-R3-上手测试/</a>
+    <a href="https://csxiahua.com/2018/08/07/LA生活指南/" title="LA生活指南">https://csxiahua.com/2018/08/07/LA生活指南/</a>
   </li>
   <li class="post-copyright-license">
     <strong>Copyright Notice: </strong>
@@ -397,16 +373,6 @@
     
 
     <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/单片机/" rel="tag"># 单片机</a>
-          
-            <a href="/tags/研究/" rel="tag"># 研究</a>
-          
-            <a href="/tags/技术/" rel="tag"># 技术</a>
-          
-        </div>
       
 
       
@@ -432,8 +398,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/07/28/Article-of-Mine/" rel="next" title="Article of Mine">
-                <i class="fa fa-chevron-left"></i> Article of Mine
+              <a href="/2018/08/07/新的博客主题/" rel="next" title="新的博客主题">
+                <i class="fa fa-chevron-left"></i> 新的博客主题
               </a>
             
           </div>
@@ -441,10 +407,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/09/15/使用现有无线网络进行Wi-Fi二级中继方案/" rel="prev" title="使用现有无线网络进行Wi-Fi二级中继方案">
-                使用现有无线网络进行Wi-Fi二级中继方案 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -506,17 +468,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Table of Contents
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Overview
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -615,22 +568,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#简介"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装"><span class="nav-number">2.</span> <span class="nav-text">安装</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#硬件"><span class="nav-number">2.0.1.</span> <span class="nav-text">硬件</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#编译"><span class="nav-number">3.</span> <span class="nav-text">编译</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#Macbook-OS-X-EI-Capitan-10-11-5"><span class="nav-number">3.0.1.</span> <span class="nav-text">Macbook OS X EI Capitan 10.11.5</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#测试"><span class="nav-number">4.</span> <span class="nav-text">测试</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#IDE"><span class="nav-number">4.0.1.</span> <span class="nav-text">IDE</span></a></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第一个Ardunio-程序"><span class="nav-number">5.</span> <span class="nav-text">第一个Ardunio 程序</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
@@ -828,9 +765,9 @@
     
       <script type="text/javascript">
         var disqus_config = function () {
-          this.page.url = 'https://csxiahua.com/2016/07/29/Arduino-UNO-R3-上手测试/';
-          this.page.identifier = '2016/07/29/Arduino-UNO-R3-上手测试/';
-          this.page.title = 'Arduino UNO R3 上手测试';
+          this.page.url = 'https://csxiahua.com/2018/08/07/LA生活指南/';
+          this.page.identifier = '2018/08/07/LA生活指南/';
+          this.page.title = 'LA生活指南';
         };
         var d = document, s = d.createElement('script');
         s.src = 'https://rednikxyz.disqus.com/embed.js';
